@@ -13,7 +13,7 @@ setTimeout(() => {
 function fillTable(tabledata){
     filltableintrval = setInterval(() => {
         if(localStorage.getItem("fullScreen") == 'true'){
-            snackbarFunction("Put the key and press on the Power Supply button and Stopwatch button to begin.")
+            snackbarFunction("Put the key and press on the Power Supply button and Heater button to begin.")
             localStorage.setItem("fullScreen", false)
             setTimeout(() => {
                 snackbarFunction("Readings are automatically recorded in the Table and Graph will be plotted.")

@@ -87,7 +87,7 @@ function replacement(){
     // document.getElementById('black-board').classList.add('hidden')
     // document.getElementById('table-board').classList.add('replacement')
 
-    document.getElementById('burner-btn').style.stroke = "yellow"
+    document.getElementById('burner-btn').style.stroke ="red"
     document.getElementById('burner-btn').style.strokeWidth = "1%"
     document.getElementById('burner-btn').onclick = function(){
         document.getElementById('hotburner').style.display="block"

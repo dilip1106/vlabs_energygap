@@ -7,7 +7,7 @@ var xValues = [0,30,60,90,120,150,180,210,240,270,300,330,360];
 
 setTimeout(() => {
    fillTable(tableDat1)  
-   fillTableDischarge(tableDat2)  
+//    fillTableDischarge(tableDat2)  
 }, 3000);
 
 function fillTable(tabledata){
@@ -46,31 +46,31 @@ function fillTable(tabledata){
     }, 500);
 }
 
-function fillTableDischarge(tabledata){
-    filltabledischargeinterval = setInterval(() => {
-        var rowData = JSON.parse(localStorage.getItem('rowData'))
-        if(rowData.volts && rowData.sno >= 8){
-            if(voltTriggger > rowData.volts){
-                voltTriggger = rowData.volts
-                chartRenderData(voltTriggger)
-            }
-            srno = document.getElementsByClassName("srno")[rowData.sno]
-            time = document.getElementsByClassName("time")[rowData.sno]
-            voltage = document.getElementsByClassName("voltage")[rowData.sno]
-            srno.value = rowData.sno + 1 - 8
-            time.value = rowData.time
-            voltage.value = rowData.volts
-            if(rowData.sno == 12){
-                clearInterval(filltabledischargeinterval)
-                snackbarFunction("The Experiment is Successfully completed!")
-                setTimeout(() => {
-                    document.getElementById("snackbar").style.display = "none"
-                    document.getElementsByClassName("btn-sbt")[0].style.display = "block"
-                }, 7000);
-            }
-        }
-    }, 500);
-}
+// function fillTableDischarge(tabledata){
+//     filltabledischargeinterval = setInterval(() => {
+//         var rowData = JSON.parse(localStorage.getItem('rowData'))
+//         if(rowData.volts && rowData.sno >= 8){
+//             if(voltTriggger > rowData.volts){
+//                 voltTriggger = rowData.volts
+//                 chartRenderData(voltTriggger)
+//             }
+//             srno = document.getElementsByClassName("srno")[rowData.sno]
+//             time = document.getElementsByClassName("time")[rowData.sno]
+//             voltage = document.getElementsByClassName("voltage")[rowData.sno]
+//             srno.value = rowData.sno + 1 - 8
+//             time.value = rowData.time
+//             voltage.value = rowData.volts
+//             if(rowData.sno == 12){
+//                 clearInterval(filltabledischargeinterval)
+//                 snackbarFunction("The Experiment is Successfully completed!")
+//                 setTimeout(() => {
+//                     document.getElementById("snackbar").style.display = "none"
+//                     document.getElementsByClassName("btn-sbt")[0].style.display = "block"
+//                 }, 7000);
+//             }
+//         }
+//     }, 500);
+// }
 
 function chartRenderData(yValue){
     yValuesdum.push(yValue)
@@ -145,3 +145,22 @@ function openFullscreen() {
     elem.msRequestFullscreen();
   }
 }
+
+
+
+
+
+document.getElementById("download").addEventListener("click", () => {
+            console.log("run hua hua");
+            const invoice = this.document.getElementById("table1");
+            console.log(invoice);
+            console.log(window);
+            var opt = {
+                margin: 1,
+                filename: 'myfile.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+            };
+            html2pdf().from(invoice).set(opt).save();
+});

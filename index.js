@@ -1,9 +1,11 @@
 // 0->one 1->two 2->three 3->four
 
-wireTerminalCheck = [
-                        {'four': false,'six': false}, {'five': false,'three': false},
-                        {'four': false, 'six': false},{'five': false, 'resistor': false},
-                        {'one': false, 'five': false}, {'two': false, 'six': false}]
+wireTerminalCheck = [{'one': false,'five': false}, {'three': false,'five': false},
+                        {'six': false, 'four': false},{'two': false, 'six': false}]
+
+// wireTerminalCheck = [{'two': false, 'six': false},{'six': false, 'four': false}, 
+//                     {'five': false,'three': false},{'one': false,'five': false}]
+
 
 terminalMap = {0:'one', 1:'two', 2:'three', 3:'four', 4:'five', 5:'six'}
 
@@ -40,6 +42,7 @@ function trial(componentSom){
             wireTerminalCheck[sequenceNum][key] = true
     
     elem = document.getElementsByClassName(componentSomMap)[0]
+    // console.log(elem)
     elem.style.animationName = "none"
     elem.style.stroke = "none"
     // console.log(checkPair())
@@ -53,11 +56,12 @@ function trial(componentSom){
         if(sequenceNum < wireTerminalCheck.length){
             enablingSequence(sequenceNum)
             // console.log('here')
+            console.log("ye call hua")
         }
         else{
             // console.log('here')
             replacement()
-            
+            console.log("ye repalcement call  hua ")
         }
     }
 }
@@ -80,12 +84,12 @@ function keyPut(){
 }
     
 function replacement(){
-    document.getElementById('black-board').classList.add('hidden')
+    // document.getElementById('black-board').classList.add('hidden')
     document.getElementById('table-board').classList.add('replacement')
 
-    document.getElementById('stopwatch-button').style.stroke = "yellow"
-    document.getElementById('stopwatch-button').style.strokeWidth = "1%"
-    document.getElementById('stopwatch-button').onclick = function(){
+    document.getElementsById('burner-btn').style.stroke = "yellow"
+    document.getElementsById('burner-btn').style.strokeWidth = "1%"
+    document.getElementsById('burner-btn').onclick = function(){
         checkbtnPressed(1)
     }
 
@@ -121,7 +125,7 @@ function checkbtnPressed(btnNum){
         document.getElementById('power-btn').style.strokeWidth = "0%"
     }
     else if(btnNum == 1)
-        document.getElementById('stopwatch-button').style.strokeWidth = "0%"
+        document.getElementsById('burner-btn').style.strokeWidth = "0%"
     
     if(btnPressed[0] && btnPressed[1] && btnPressed[2]){    
         startWorking('charging')
@@ -236,4 +240,3 @@ function startWorking(conditionChar){
 
     }
 }
-

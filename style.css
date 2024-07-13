@@ -144,7 +144,7 @@ th, tr, td, .obs{
 
 tr{
     /* height: 2.5%; */
-    height: 5px;
+    height: 5%;
     font-size: 1vw;
 }
 
@@ -209,15 +209,19 @@ tr{
 }
 
 .five{
-    transform-origin:-1095px 265px;
+    transform-origin:-1090px 245px;
 }
 
 .six{
-    transform-origin:775px 215px;
+    transform-origin:148px 133px;
 }
 
+/* .six{
+    transform-origin:-800px 125px;
+} */
+
 .resistor{
-    transform-origin: 115px -234px;
+    transform-origin: -913px 125px;
 }
 
 .capacitor{

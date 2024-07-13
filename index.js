@@ -87,9 +87,9 @@ function replacement(){
     // document.getElementById('black-board').classList.add('hidden')
     document.getElementById('table-board').classList.add('replacement')
 
-    document.getElementsById('burner-btn').style.stroke = "yellow"
-    document.getElementsById('burner-btn').style.strokeWidth = "1%"
-    document.getElementsById('burner-btn').onclick = function(){
+    document.getElementById('burner-btn').style.stroke = "yellow"
+    document.getElementById('burner-btn').style.strokeWidth = "1%"
+    document.getElementById('burner-btn').onclick = function(){
         checkbtnPressed(1)
     }
 
@@ -125,7 +125,7 @@ function checkbtnPressed(btnNum){
         document.getElementById('power-btn').style.strokeWidth = "0%"
     }
     else if(btnNum == 1)
-        document.getElementsById('burner-btn').style.strokeWidth = "0%"
+        document.getElementById('burner-btn').style.strokeWidth = "0%"
     
     if(btnPressed[0] && btnPressed[1] && btnPressed[2]){    
         startWorking('charging')

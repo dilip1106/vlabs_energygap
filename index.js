@@ -1,10 +1,10 @@
 // 0->one 1->two 2->three 3->four
 
-wireTerminalCheck = [{'one': false,'five': false}, {'three': false,'five': false},
-                        {'six': false, 'four': false},{'two': false, 'six': false}]
+// wireTerminalCheck = [{'one': false,'five': false}, {'three': false,'five': false},
+//                         {'six': false, 'four': false},{'two': false, 'six': false}]
 
-// wireTerminalCheck = [{'two': false, 'six': false},{'six': false, 'four': false}, 
-//                     {'five': false,'three': false},{'one': false,'five': false}]
+wireTerminalCheck = [{'two': false, 'six': false},{'six': false, 'four': false}, 
+                    {'five': false,'three': false},{'one': false,'five': false}]
 
 
 terminalMap = {0:'one', 1:'two', 2:'three', 3:'four', 4:'five', 5:'six'}
@@ -85,11 +85,12 @@ function keyPut(){
     
 function replacement(){
     // document.getElementById('black-board').classList.add('hidden')
-    document.getElementById('table-board').classList.add('replacement')
+    // document.getElementById('table-board').classList.add('replacement')
 
     document.getElementById('burner-btn').style.stroke = "yellow"
     document.getElementById('burner-btn').style.strokeWidth = "1%"
     document.getElementById('burner-btn').onclick = function(){
+        document.getElementById('hotburner').style.display="block"
         checkbtnPressed(1)
     }
 

@@ -54,6 +54,10 @@ div object{
     display: none;
 }
 
+#hotburner{
+    display: none;
+}
+
 .replacement{
     transform: matrix(1.35, 0, 0, 1.35, -32.5, -63)
 }

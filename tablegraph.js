@@ -19,16 +19,17 @@ function fillTable(tabledata){
                 snackbarFunction("Readings are automatically recorded in the Table and Graph will be plotted.")
             }, 13000);
         }
-        if(localStorage.getItem("transitionDis") == 'true'){
-            snackbarFunction("Since the Supercapcitor is Fully Charged, put the Discharge key to discharge the Supercapacitor")
-            localStorage.setItem("transitionDis", false)
-        }
+        // if(localStorage.getItem("transitionDis") == 'true'){
+        //     snackbarFunction("Since the Supercapcitor is Fully Charged, put the Discharge key to discharge the Supercapacitor")
+        //     localStorage.setItem("transitionDis", false)
+        // }
+
         var rowData = JSON.parse(localStorage.getItem('rowData'))
         if(rowData.volts && rowData.sno < 8){
-            if(voltTriggger < rowData.volts){
-                voltTriggger = rowData.volts
-                chartRenderData(voltTriggger)
-            }
+            // if(voltTriggger < rowData.volts){
+            //     voltTriggger = rowData.volts
+            //     chartRenderData(voltTriggger)
+            // }
             srno = document.getElementsByClassName("srno")[rowData.sno]
             time = document.getElementsByClassName("time")[rowData.sno]
             voltage = document.getElementsByClassName("voltage")[rowData.sno]
@@ -145,22 +146,3 @@ function openFullscreen() {
     elem.msRequestFullscreen();
   }
 }
-
-
-
-
-
-document.getElementById("download").addEventListener("click", () => {
-            console.log("run hua hua");
-            const invoice = this.document.getElementById("table1");
-            console.log(invoice);
-            console.log(window);
-            var opt = {
-                margin: 1,
-                filename: 'myfile.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
-            };
-            html2pdf().from(invoice).set(opt).save();
-});

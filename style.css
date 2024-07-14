@@ -5,7 +5,7 @@
 }
 .simulation-container object {
     position: relative;
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -57,7 +57,9 @@ div object{
 #hotburner{
     display: none;
 }
-
+#burner-btn{
+    cursor: pointer;
+}
 .replacement{
     transform: matrix(1.35, 0, 0, 1.35, -32.5, -63)
 }
@@ -88,14 +90,14 @@ form{
 
 .table{
     display: flex;
-    height: 100%;
+    height: 70%;
     justify-content: center;
     margin-bottom: 0px !important;
     /* vertical-align: middle; */
 }
 
 table{
-    width: 100%;
+    width: 60%;
     text-align: center;
     margin: 0 0.5%;
 }
@@ -115,20 +117,20 @@ th{
     margin-bottom: 0px;
 }
 
-.srno, .time, .voltage{
+.srno,.tempc,.tempk,.current,.tempinv,.tempsqr,.log{
     text-align: center;
     border: 0px;
     padding: 0 !important;
     margin: 0 !important;
 }
-
 .srno{
+    width: 10%;
+}
+
+.tempc,.tempk,.current,.tempinv,.tempsqr,.log{
     width: 20%;
 }
 
-.time, .voltage{
-    width: 40%;
-}
 
 .obs{
     background-color: #007bff;
@@ -218,6 +220,7 @@ tr{
 
 .six{
     transform-origin:148px 133px;
+    cursor: pointer;
 }
 
 /* .six{

@@ -174,7 +174,7 @@ function startWorking() {
       clearInterval(intervalId);
       startdroping();
     }
-  }, 100); // Increase number every 100 milliseconds
+  }, 1000); // Increase number every 100 milliseconds
 }
 
 // function startdroping() {

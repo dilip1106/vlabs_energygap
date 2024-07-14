@@ -31,8 +31,8 @@ function fillTable(tabledata){
             //     chartRenderData(voltTriggger)
             // }
             srno = document.getElementsByClassName("srno")[rowData.sno]
-            time = document.getElementsByClassName("time")[rowData.sno]
-            voltage = document.getElementsByClassName("voltage")[rowData.sno]
+            time = document.getElementsByClassName("tempc")[rowData.sno]
+            voltage = document.getElementsByClassName("curr")[rowData.sno]
             srno.value = rowData.sno + 1
             time.value = rowData.time
             voltage.value = rowData.volts

@@ -19,7 +19,7 @@ terminalMap = {
   5: "six",
 };
 
-var xValues = [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360];
+var xValues = [65,60,55,50,45,40,35,30];
 
 sequenceNum = 0;
 
@@ -30,8 +30,8 @@ localStorage.setItem("transitionDis", false);
 var btnPressed = [false, false, false];
 
 setTimeout(() => {
-  // enablingSequence(sequenceNum);
-  startWorking();
+  enablingSequence(sequenceNum);
+  // startWorking();
 }, 2000);
 
 function enablingSequence(sequenceNum) {
@@ -177,16 +177,44 @@ function startWorking() {
   }, 100); // Increase number every 100 milliseconds
 }
 
+// function startdroping() {
+//   let temptext = document.getElementById("temp");
+//   let curtext = document.getElementById("volt");
+//   let i = curarr.length;
+//   let flag = 1;
+//   let intervalId = setInterval(() => {
+//     // number+=getRndInteger(0.00,1.00);
+//     // number--;
+//     temptext.textContent = number.toFixed(2);
+//     if (flag == 0) {
+//       curno = curarr[i--] + getRndInteger(0.1, 0.3);
+//       flag = 1;
+//     } else {
+//       curno = curarr[i--] - getRndInteger(0.1, 0.3);
+//       flag = 0;
+//     }
+//     curtext.textContent = curno.toFixed(2);
+//     number--;
+//     // Stop the interval after reaching a certain number
+//     if (number <= 27.0) {
+//       clearInterval(intervalId);
+//     }
+//   }, 100); // Increase number every 100 milliseconds
+// }
+
 function startdroping() {
   let temptext = document.getElementById("temp");
   let curtext = document.getElementById("volt");
-
   let i = curarr.length;
   let flag = 1;
+  let srno=0;
+  let yValuesdum = []
+  rowData =  {'sno':0, 'tempc': 0, 'tempk': 0.36,'curr':0 ,'tsqr':0, 'tinv':0,'log':0}
+  localStorage.setItem("rowData", JSON.stringify(rowData))
 
   let intervalId = setInterval(() => {
     // number+=getRndInteger(0.00,1.00);
-    number--;
+    // number--;
     temptext.textContent = number.toFixed(2);
     if (flag == 0) {
       curno = curarr[i--] + getRndInteger(0.1, 0.3);
@@ -195,10 +223,22 @@ function startdroping() {
       curno = curarr[i--] - getRndInteger(0.1, 0.3);
       flag = 0;
     }
+    dataPass = setInterval(() => {
+      if(number%5==0){
+        yValue = parseFloat(curtext.textContent)
+        yValuesdum.push(yValue)
+        rowData.sno = srno
+        rowData.tempc = xValues[srno]
+        rowData.curr = yValue
+        localStorage.setItem('rowData', JSON.stringify(rowData))
+        srno++
+      }
+    }, 100);
+
+
     curtext.textContent = curno.toFixed(2);
-    if(number%5==0){
-      
-    }
+    number--;
+
     // Stop the interval after reaching a certain number
     if (number <= 27.0) {
       clearInterval(intervalId);
@@ -255,6 +295,7 @@ function startdroping() {
 //                     voltmeter.textContent = "01."+(volt-100)
 //             }
 //         }, 1000);
+
 //         dataPass = setInterval(() => {
 //             if(min>0) min--
 //             if(max>1) max--

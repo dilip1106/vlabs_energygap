@@ -30,8 +30,8 @@ localStorage.setItem("transitionDis", false);
 var btnPressed = [false, false, false];
 
 setTimeout(() => {
-  enablingSequence(sequenceNum);
-  // startWorking();
+  // enablingSequence(sequenceNum);
+  startWorking();
 }, 2000);
 
 function enablingSequence(sequenceNum) {
@@ -174,7 +174,7 @@ function startWorking() {
       clearInterval(intervalId);
       startdroping();
     }
-  }, 1000); // Increase number every 100 milliseconds
+  }, 100); // Increase number every 100 milliseconds
 }
 
 // function startdroping() {
@@ -207,10 +207,10 @@ function startdroping() {
   let curtext = document.getElementById("volt");
   let i = curarr.length;
   let flag = 1;
-  let srno=0;
-  let yValuesdum = []
-  rowData =  {'sno':0, 'tempc': 0, 'tempk': 0.36,'curr':0 ,'tsqr':0, 'tinv':0,'log':0}
-  localStorage.setItem("rowData", JSON.stringify(rowData))
+  var srno=0;
+  // let yValuesdum = []
+  // rowData =  {'sno':0, 'tempc': 0, 'tempk': 0.36,'curr':0 ,'tsqr':0, 'tinv':0,'log':0}
+  // localStorage.setItem("rowData", JSON.stringify(rowData))
 
   let intervalId = setInterval(() => {
     // number+=getRndInteger(0.00,1.00);
@@ -223,17 +223,27 @@ function startdroping() {
       curno = curarr[i--] - getRndInteger(0.1, 0.3);
       flag = 0;
     }
-    dataPass = setInterval(() => {
-      if(number%5==0){
-        yValue = parseFloat(curtext.textContent)
-        yValuesdum.push(yValue)
-        rowData.sno = srno
-        rowData.tempc = xValues[srno]
-        rowData.curr = yValue
-        localStorage.setItem('rowData', JSON.stringify(rowData))
+      if(number%5===0.00){
+        // yValue = parseFloat(curtext.textContent)
+        // yValuesdum.push(yValue)
+        // rowData.sno = srno
+        // console.log(`ye sno hai ${rowData.sno}`);
+        // rowData.tempc = xValues[srno]
+        // console.log(`ye tempc hai ${rowData.tempc}`)
+        // rowData.curr = yValue
+        // console.log(`ye curr hai ${rowData.curr}`)
+        // localStorage.setItem('rowData', JSON.stringify(rowData))
+        // tablefill(srno)
         srno++
+        // var rowData = JSON.parse(localStorage.getItem('rowData'))
+        // srnoo = document.getElementsByClassName("srno")[rowData.sno]
+        // time = document.getElementsByClassName("tempc")[rowData.sno]
+        // voltage = document.getElementsByClassName("curr")[rowData.sno]
+        // srnoo.value = rowData.sno + 1
+        // time.value = rowData.time
+        // voltage.value = rowData.volts
       }
-    }, 100);
+      
 
 
     curtext.textContent = curno.toFixed(2);
@@ -245,7 +255,6 @@ function startdroping() {
     }
   }, 100); // Increase number every 100 milliseconds
 }
-
 // function startWorking(){
 
 //     rowData =  {'sno':0, 'time': 0, 'volts': 0.36}

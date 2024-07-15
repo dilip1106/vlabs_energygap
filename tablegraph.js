@@ -6,9 +6,10 @@ voltTriggger = 0
 var xValues = [0,30,60,90,120,150,180,210,240,270,300,330,360];
 
 setTimeout(() => {
-   fillTable(tableDat1)  
+    document.getElementById('srno1').innerText='1';
+    fillTable(tableDat1)  
 //    fillTableDischarge(tableDat2)  
-}, 3000);
+}, 3700);
 
 function fillTable(tabledata){
     filltableintrval = setInterval(() => {

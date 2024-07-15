@@ -124,11 +124,11 @@ th{
     margin: 0 !important;
 }
 .srno{
-    width: 10%;
+    width: 20%;
 }
 
 .tempc,.tempk,.current,.tempinv,.tempsqr,.log{
-    width: 20%;
+    width: 50%;
 }
 
 
@@ -157,7 +157,7 @@ tr{
 
 .graph{
     padding: 1% 0%;
-    height: 50%;
+    height: 100%;
 }
 
 .graph canvas{

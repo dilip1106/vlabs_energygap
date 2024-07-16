@@ -21,8 +21,8 @@ localStorage.setItem("transitionDis", false);
 var btnPressed = [false, false, false];
 
 setTimeout(() => {
-  // enablingSequence(sequenceNum);
-  startWorking();
+  enablingSequence(sequenceNum);
+  // startWorking();
 }, 2000);
 
 function enablingSequence(sequenceNum) {
@@ -193,7 +193,7 @@ function startdroping() {
     if (number <= 27.0) {
       clearInterval(intervalId);
     }
-  }, 100); // Increase number every 100 milliseconds
+  }, 1000); // Increase number every 100 milliseconds
 }
 
 function filldata(srno,number,curno){

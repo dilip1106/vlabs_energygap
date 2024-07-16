@@ -10,7 +10,6 @@ var xValues = [0,2.9500,3.0000,3.050,3.100,3.1500,3.2000,3.2500,3.3000];
 var tinvValues = [];
 var logValues =  [];
 var count =0
-const myset = new Set();
 let ebg=0
 
 setTimeout(() => {
@@ -127,7 +126,7 @@ function calslope(){
     y2=logValues[4];
 
     const slope=(y2-y1)/(x2-x1);
-    ebg=2.303 * 8.62 * 10-5 * slope;
+    ebg=2.303 * 8.62 * Math.pow(10,-5) * slope;
     slopevalue.innerHTML=slope.toFixed(4);
     document.querySelector('.ebg').style.display="block"
 }
@@ -139,7 +138,7 @@ function ebgcal(){
         alert("Enter slope")
     }else{
          document.querySelector('.ebgres').style.display="block"
-        res.innerHTML=ebg.toFixed(3)
+        res.innerHTML=ebg
     }
 }
 document.querySelector('.gen').addEventListener('click', drawGraph);

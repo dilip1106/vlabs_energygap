@@ -5,21 +5,10 @@
 // wireTerminalCheck = [{'one': false,'five': false}, {'three': false,'five': false},
 //                         {'six': false, 'four': false},{'two': false, 'six': false}]
 
-wireTerminalCheck = [
-  { two: false, six: false },
-  { six: false, four: false },
-  { five: false, three: false },
-  { one: false, five: false },
-];
+wireTerminalCheck = [{ two: false, six: false },{ six: false, four: false },
+                  { five: false, three: false },{ one: false, five: false },];
 
-terminalMap = {
-  0: "one",
-  1: "two",
-  2: "three",
-  3: "four",
-  4: "five",
-  5: "six",
-};
+terminalMap = { 0: "one",1: "two",2: "three",3: "four",4: "five",5: "six",};
 
 var xValues = [65,60,55,50,45,40,35,30];
 
@@ -92,8 +81,6 @@ function keyPut() {
 }
 
 function replacement() {
-  // document.getElementById('black-board').classList.add('hidden')
-  // document.getElementById('table-board').classList.add('replacement')
 
   document.getElementById("burner-btn").style.stroke = "red";
   document.getElementById("burner-btn").style.strokeWidth = "1%";
@@ -146,7 +133,7 @@ let curarr = [
   6.83, 7.07, 7.31, 7.56, 7.82, 8.09, 8.36, 8.64, 8.92, 9.22, 9.52, 9.833, 10.1,
   10.47, 10.81, 11.15, 11.5, 11.86, 12.23, 12.61, 12.99, 13.39, 13.79, 14.21,
   14.63, 15.07, 15.51, 15.97, 16.44, 16.91, 17.4, 17.9, 18.41, 18.93, 19.46,
-  20.0, 20.56, 21.13, 21.71,
+  20.0, 20.56, 21.13, 21.71,22.10,22.51,23.01,23.60
 ];
 
 let curno = 6.83;
@@ -172,51 +159,20 @@ function startWorking() {
     }
     curtext.textContent = curno.toFixed(2);
     // Stop the interval after reaching a certain number
-    if (number >= 65.0) {
+    if (number >= 68.0) {
       clearInterval(intervalId);
       startdroping();
     }
   }, 100); // Increase number every 100 milliseconds
 }
 
-// function startdroping() {
-//   let temptext = document.getElementById("temp");
-//   let curtext = document.getElementById("volt");
-//   let i = curarr.length;
-//   let flag = 1;
-//   let intervalId = setInterval(() => {
-//     // number+=getRndInteger(0.00,1.00);
-//     // number--;
-//     temptext.textContent = number.toFixed(2);
-//     if (flag == 0) {
-//       curno = curarr[i--] + getRndInteger(0.1, 0.3);
-//       flag = 1;
-//     } else {
-//       curno = curarr[i--] - getRndInteger(0.1, 0.3);
-//       flag = 0;
-//     }
-//     curtext.textContent = curno.toFixed(2);
-//     number--;
-//     // Stop the interval after reaching a certain number
-//     if (number <= 27.0) {
-//       clearInterval(intervalId);
-//     }
-//   }, 100); // Increase number every 100 milliseconds
-// }
-
 function startdroping() {
   let temptext = document.getElementById("temp");
   let curtext = document.getElementById("volt");
-  let i = curarr.length;
+  let i = curarr.length-1;
   let flag = 1;
   var srno=0;
-  // let yValuesdum = []
-  // rowData =  {'sno':0, 'tempc': 0, 'tempk': 0.36,'curr':0 ,'tsqr':0, 'tinv':0,'log':0}
-  // localStorage.setItem("rowData", JSON.stringify(rowData))
-
   let intervalId = setInterval(() => {
-    // number+=getRndInteger(0.00,1.00);
-    // number--;
     temptext.textContent = number.toFixed(2);
     if (flag == 0) {
       curno = curarr[i--] + getRndInteger(0.1, 0.3);
@@ -225,14 +181,11 @@ function startdroping() {
       curno = curarr[i--] - getRndInteger(0.1, 0.3);
       flag = 0;
     }
-      if(number%5===0.00){
-        document.getElementById("srno1").innerText="1";
-        srno++
-      
-      }
-      
-
-
+    if(number%5===0.00){
+      filldata(srno,number,curno)
+      srno++
+      console.log("fill data callede");
+    }
     curtext.textContent = curno.toFixed(2);
     number--;
 
@@ -242,106 +195,13 @@ function startdroping() {
     }
   }, 100); // Increase number every 100 milliseconds
 }
-// function startWorking(){
 
-//     rowData =  {'sno':0, 'time': 0, 'volts': 0.36}
-//     localStorage.setItem("rowData", JSON.stringify(rowData))
-//     stopwatch = document.getElementById('stopwatch')
-//     voltmeter = document.getElementById('volt')
-
-//     if(conditionChar === 'charging'){
-//         volt = 36
-//         time = 0
-//         min = 4
-//         max = 6
-//         srno = 1
-//         yValuesdum = []
-//         stopwatchTime = setInterval(() => {
-//             if(time< 10)
-//                 stopwatch.textContent = '00'+time+'.0'
-//             else if(time<100)
-//                 stopwatch.textContent = '0'+time+'.0'
-//             else
-//                 stopwatch.textContent = time+'.0'
-//             time++
-//             if(time == 211){
-//                 clearInterval(stopwatchTime)
-//                 clearInterval(voltReading)
-//                 clearInterval(dataPass)
-//                 localStorage.setItem("transitionDis", true)
-//                 elem = document.getElementById('key2')
-//                 elem.classList.add('key-up-down')
-//                 elem.style.display = "block"
-//                 elem.onclick = function(){
-//                    keyOp()
-//                 }
-//                 document.getElementById('keyBase2').onclick = function(){
-//                     keyOp()
-//                 }
-//             }
-//         }, 330);
-//         voltReading = setInterval(() => {
-//             volt += getRndInteger(min, max)
-//             if(volt<100)
-//                 voltmeter.textContent = "00."+volt
-//             else if(volt < 200){
-//                 if(volt < 110)
-//                     voltmeter.textContent = "01.0"+(volt-100)
-//                 else
-//                     voltmeter.textContent = "01."+(volt-100)
-//             }
-//         }, 1000);
-
-//         dataPass = setInterval(() => {
-//             if(min>0) min--
-//             if(max>1) max--
-//             yValue = parseFloat(voltmeter.textContent)
-//             yValuesdum.push(yValue)
-//             rowData.sno = srno
-//             rowData.time = xValues[srno]
-//             rowData.volts = yValue
-//             localStorage.setItem('rowData', JSON.stringify(rowData))
-//             srno++
-//         }, 9901);
-//     }else{
-//         volt = parseFloat(voltmeter.textContent)*100
-//         time = 210
-//         min = 3
-//         max = 6
-//         srno = 8
-//         yValuesdum = []
-//         stopwatchTime = setInterval(() => {
-//             stopwatch.textContent = time+'.0'
-//             time++
-//             if(time == 361){
-//                 clearInterval(stopwatchTime)
-//                 clearInterval(voltReading)
-//                 clearInterval(dataPass)
-//             }
-//         }, 330);
-//         voltReading = setInterval(() => {
-//             volt -= getRndInteger(min, max)
-//             if(volt<100)
-//                 voltmeter.textContent = "00."+volt
-//             else if(volt < 200){
-//                 if(volt < 110)
-//                     voltmeter.textContent = "01.0"+(volt-100)
-//                 else
-//                     voltmeter.textContent = "01."+(volt-100)
-//             }
-//         }, 1000);
-//         dataPass = setInterval(() => {
-//             if(min>0) min--
-//             if(max>1) max--
-//             yValue = parseFloat(voltmeter.textContent)
-//             yValuesdum.push(yValue)
-//             rowData.sno = srno
-//             rowData.time = xValues[srno]
-//             rowData.volts = yValue
-//             localStorage.setItem('rowData', JSON.stringify(rowData))
-//             srno++
-//         }, 9901);
-
-//     }
-//     alert("Bhaiworking bai svg set hai")
-// }
+function filldata(srno,number,curno){
+  rowData =  {'sno':0, 'tempc': 65, 'curr': 0}
+  localStorage.setItem("rowData", JSON.stringify(rowData))
+      rowData.tempc=number
+      rowData.sno = srno
+      rowData.curr=curno
+      console.log(srno);
+      localStorage.setItem('rowData', JSON.stringify(rowData)) 
+}

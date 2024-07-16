@@ -184,7 +184,25 @@ tr{
     z-index: 1;
     /* stroke: yellow; */
 }
-  
+
+.slope{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.slope-div{
+    display: none;
+}
+
+.svalue{
+    padding-top: 5px;
+    display: none;
+}
+
+.slopev{
+    color: red;
+}
 @keyframes pulse {
     0% {
         stroke-width: 20px;

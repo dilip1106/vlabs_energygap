@@ -1,5 +1,7 @@
 // 0->one 1->two 2->three 3->four
 
+
+
 // wireTerminalCheck = [{'one': false,'five': false}, {'three': false,'five': false},
 //                         {'six': false, 'four': false},{'two': false, 'six': false}]
 
@@ -224,24 +226,9 @@ function startdroping() {
       flag = 0;
     }
       if(number%5===0.00){
-        // yValue = parseFloat(curtext.textContent)
-        // yValuesdum.push(yValue)
-        // rowData.sno = srno
-        // console.log(`ye sno hai ${rowData.sno}`);
-        // rowData.tempc = xValues[srno]
-        // console.log(`ye tempc hai ${rowData.tempc}`)
-        // rowData.curr = yValue
-        // console.log(`ye curr hai ${rowData.curr}`)
-        // localStorage.setItem('rowData', JSON.stringify(rowData))
-        // tablefill(srno)
+        document.getElementById("srno1").innerText="1";
         srno++
-        // var rowData = JSON.parse(localStorage.getItem('rowData'))
-        // srnoo = document.getElementsByClassName("srno")[rowData.sno]
-        // time = document.getElementsByClassName("tempc")[rowData.sno]
-        // voltage = document.getElementsByClassName("curr")[rowData.sno]
-        // srnoo.value = rowData.sno + 1
-        // time.value = rowData.time
-        // voltage.value = rowData.volts
+      
       }
       
 

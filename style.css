@@ -212,6 +212,7 @@ tr{
     border-radius: 5px;
     border: 2px solid #007bff;
 }
+
 @keyframes pulse {
     0% {
         stroke-width: 20px;

@@ -1,278 +1,253 @@
-var tableDat1 = document.getElementById("table1")
-var tableDat2 = document.getElementById("table2")
+currtrigger = 10;
+var xValues = [0, 2.95, 3.0, 3.05, 3.1, 3.15, 3.2, 3.25, 3.3];
 
-// yValuesdum = []
-currtrigger = 10
-var xValues = [0,2.9500,3.0000,3.050,3.100,3.1500,3.2000,3.2500,3.3000];
-// var xValues = [0,1,2,3,4,5,6,7,8];
-// yValuesdum = [3.2000,3.100,2.963,2.834,2.605,2.542,2.371,2.232,1.905]; 
-
-var tinvValues = [];
-var logValues =  [3.2];
-var count =0
-let ebg=0
-
+var logValues = [,];
+var count = 0;
+let ebg = 0;
+let slope = 0;
 setTimeout(() => {
-    fillTable()  
-//    fillTableDischarge(tableDat2)  
+  fillTable();
 }, 3700);
 
-function fillTable(){
-    filltableintrval = setInterval(() => {
-        if(localStorage.getItem("fullScreen") == 'true'){
-            snackbarFunction("Put the key and press on the Power Supply button and Heater button to begin.")
-            localStorage.setItem("fullScreen", false)
-            setTimeout(() => {
-                snackbarFunction("Readings are automatically recorded in the Table and Graph will be plotted.")
-            }, 13000);
-        }
-
-        var rowData = JSON.parse(localStorage.getItem('rowData'))
-        if( rowData.tempc && rowData.sno < 8 ){
-            srno = document.getElementsByClassName("srno")[rowData.sno]
-            tempc = document.getElementsByClassName("tempc")[rowData.sno]
-            tempk = document.getElementsByClassName("tempk")[rowData.sno]
-            curr = document.getElementsByClassName("current")[rowData.sno]
-            tsqr = document.getElementsByClassName("tempsqr")[rowData.sno]
-            tinv = document.getElementsByClassName("tempinv")[rowData.sno]
-            log = document.getElementsByClassName("log")[rowData.sno]
-            
-            let temp;
-            srno.value = rowData.sno + 1
-            tempc.value=rowData.tempc
-            tempk.value=rowData.tempc+273
-
-            temp=(rowData.curr)
-            curr.value = temp.toFixed(2)
-
-            temp=Math.pow((rowData.tempc+273),2)
-            tsqr.value= temp.toFixed(0)
-
-            temp=(Math.pow((rowData.tempc+273),-1)*1000)
-            tinv.value=temp.toFixed(4)
-
-            temp=Math.log(rowData.curr)
-            log.value =temp.toFixed(3)
-            // xValues.push(tinv.value);
-
-            // myset.add(log.value);
-            // console.log(myset);
-            tinvValues.push(tinv.value);
-            
-            if(currtrigger > Math.log(rowData.curr)){
-                currtrigger = Math.log(rowData.curr)
-                logValues.push(currtrigger)
-                console.log(logValues)
-                drawGraph()
-                count++;
-            }
-            if(count == 8){
-                document.querySelector('.slope-div').style.display="block"
-            }
-            
-        }
-        if(rowData.sno == 8){
-            clearInterval(filltableintrval)
-        }
-    }, 500);
-}
-
-
-
-function drawGraph() {
-    // const myArray = [...myset];  
-    console.log("drawgraph called")                            
-    const ctx = document.getElementById('myChart').getContext('2d');
-    new Chart(ctx, {
-        type: 'line',  
-        data: {
-            labels: xValues,
-            datasets: [{
-                label: 'log(Is / T^2) vs 1/T',
-                data:logValues,
-                borderColor: 'rgba(75, 192, 192, 1)',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderWidth: 1,
-                fill: false,
-            }]
-        },
-        options: {
-            scales: {
-                xAxes: [{
-                    scaleLabel: {
-                        display: true,
-                        labelString: '1/T (1/K)',
-                    }
-                }],
-                yAxes: [{
-                    scaleLabel: {
-                        display: true,
-                        labelString: 'log(Is / T^2)',
-                    }
-                }]
-            },
-            responsive: true,
-            maintainAspectRatio: false
-        }
-    });
-}
-
-    // const myArray = [...myset];  
-                            
-    const ctx = document.getElementById('myChart').getContext('2d');
-    const myChart = new Chart(ctx, {
-        type: 'line',  
-        data: {
-            labels: xValues,
-            datasets: [{
-                label: 'log(Is / T^2) vs 1/T',
-                data:logValues,
-                borderColor: 'rgba(75, 192, 192, 1)',
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderWidth: 1,
-                fill: false,
-            }]
-        },
-        options: {
-            scales: {
-                xAxes: [{
-                    scaleLabel: {
-                        display: true,
-                        labelString: '1/T (1/K)',
-                    }
-                }],
-                yAxes: [{
-                    scaleLabel: {
-                        display: true,
-                        labelString: 'log(Is / T^2)',
-                    }
-                }]
-            },
-            responsive: true,
-            maintainAspectRatio: false
-        }
-    });
-
-document.querySelector('.calcslope').addEventListener('click', calslope);
-function calslope(){
-    let x1,x2,y1,y2
-    let slopevalue = document.querySelector('.slopev')
-    document.querySelector('.svalue').style.display="block"
-    x1=xValues[1];
-    x2=xValues[4];
-
-    y1=logValues[1];
-    y2=logValues[4];
-
-    const slope=(y2-y1)/(x2-x1);
-    ebg=2.303 * 8.62 * Math.pow(10,-5) * slope;
-    slopevalue.innerHTML=slope.toFixed(4);
-    document.querySelector('.ebg').style.display="block"
-}
-document.querySelector('.ebgbtn').addEventListener('click', ebgcal);
-function ebgcal(){
-    let slopeinp =document.querySelector('.slopeinp')
-    let res= document.querySelector('.ebgvalue')
-    if(slopeinp.value==""){
-        alert("Enter slope")
-    }else{
-         document.querySelector('.ebgres').style.display="block"
-        res.innerHTML=ebg
+function fillTable() {
+  filltableintrval = setInterval(() => {
+    if (localStorage.getItem("fullScreen") == "true") {
+      snackbarFunction(
+        "Put the key and press on the Power Supply button and Heater button to begin."
+      );
+      localStorage.setItem("fullScreen", false);
+      setTimeout(() => {
+        snackbarFunction(
+          "Readings are automatically recorded in the Table and Graph will be plotted."
+        );
+      }, 13000);
     }
+
+    var rowData = JSON.parse(localStorage.getItem("rowData"));
+    if (rowData.tempc && rowData.sno < 8) {
+      srno = document.getElementsByClassName("srno")[rowData.sno];
+      tempc = document.getElementsByClassName("tempc")[rowData.sno];
+      tempk = document.getElementsByClassName("tempk")[rowData.sno];
+      curr = document.getElementsByClassName("current")[rowData.sno];
+      tsqr = document.getElementsByClassName("tempsqr")[rowData.sno];
+      tinv = document.getElementsByClassName("tempinv")[rowData.sno];
+      log = document.getElementsByClassName("log")[rowData.sno];
+
+      let temp;
+      srno.value = rowData.sno + 1;
+      tempc.value = rowData.tempc;
+      tempk.value = rowData.tempc + 273;
+
+      temp = rowData.curr;
+      curr.value = temp.toFixed(2);
+
+      temp = Math.pow(rowData.tempc + 273, 2);
+      tsqr.value = temp.toFixed(0);
+
+      temp = Math.pow(rowData.tempc + 273, -1) * 1000;
+      tinv.value = temp.toFixed(4);
+
+      temp = Math.log(rowData.curr);
+      log.value = temp.toFixed(3);
+
+      if (currtrigger > Math.log(rowData.curr)) {
+        currtrigger = Math.log(rowData.curr);
+        logValues.push(currtrigger);
+        console.log(logValues);
+        // drawGraph()
+        myChart.update();
+        count++;
+      }
+      if (count == 8) {
+        document.querySelector(".slope-div").style.display = "block";
+        document.querySelector("#download").style.display = "block";
+      }
+    }
+    if (rowData.sno == 8) {
+      clearInterval(filltableintrval);
+    }
+  }, 500);
 }
 
-snackbarFunction("Follow the Indicators and Click on the Terminals to make the connection.")
+let ctx = document.getElementById("myChart").getContext("2d");
+let myChart = new Chart(ctx, {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [
+      {
+        label: "log(Is / T^2) vs 1/T",
+        data: logValues,
+        borderColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        borderWidth: 1,
+        fill: false,
+      },
+    ],
+  },
+  options: {
+    scales: {
+      xAxes: [
+        {
+            scaleLabel: {
+            display: true,
+            labelString: "1/T (1/K)",
+          },
+        },
+      ],
+      yAxes: [
+        {
+            ticks: {
+                beginAtZero: true, // Start y-axis from 0
+              },
+            scaleLabel: {
+            display: true,
+            labelString: "log(Is / T^2)",
+            beginAtZero: true,
+          },
+        },
+      ],
+    },
+    responsive: true,
+    maintainAspectRatio: false,
+    animation:{
+        duration:1
+    }
+  },
+});
+
+document.querySelector(".calcslope").addEventListener("click", calslope);
+function calslope() {
+  let x1, x2, y1, y2;
+  let slopevalue = document.querySelector(".slopev");
+  document.querySelector(".svalue").style.display = "block";
+  x1 = xValues[1];
+  x2 = xValues[4];
+
+  y1 = logValues[1];
+  y2 = logValues[4];
+
+  slope = (y2 - y1) / (x2 - x1);
+  ebg = 2.303 * 8.62 * Math.pow(10, -5) * slope;
+  slopevalue.innerHTML = slope.toFixed(4);
+  document.querySelector(".ebg").style.display = "block";
+}
+
+
+document.querySelector(".ebgbtn").addEventListener("click", ebgcal);
+function ebgcal() {
+  let slopeinp = document.querySelector(".slopeinp");
+  let res = document.querySelector(".ebgvalue");
+  if (slopeinp.value !== slope.toFixed(4)) {
+    alert("Enter correct slope");
+  } else {
+    document.querySelector(".ebgres").style.display = "block";
+    res.innerHTML = ebg;
+  }
+}
+
+snackbarFunction(
+  "Follow the Indicators and Click on the Terminals to make the connection."
+);
 
 function snackbarFunction(instruction) {
-    var x = document.getElementById("snackbar");
-    x.textContent = instruction
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
+  var x = document.getElementById("snackbar");
+  x.textContent = instruction;
+  x.className = "show";
+  setTimeout(function () {
+    x.className = x.className.replace("show", "");
+  }, 7000);
 }
 
-var elem = document.getElementsByTagName('body')[0]
+var elem = document.getElementsByTagName("body")[0];
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
-  } else if (elem.webkitRequestFullscreen) { /* Safari */
+  } else if (elem.webkitRequestFullscreen) {
+    /* Safari */
     elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE11 */
+  } else if (elem.msRequestFullscreen) {
+    /* IE11 */
     elem.msRequestFullscreen();
   }
 }
 
 
-// document.getElementById('download').addEventListener('click', function() {
-//     const { jsPDF } = window.jspdf;
+async function downloadGraphAndObservations() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
 
-//     const generatePDF = async () => {
-//         try {
-//             // Capture the table
-//             const tableCanvas = await html2canvas(document.querySelector("#table1"), { scale: 2 });
-//             const tableImgData = tableCanvas.toDataURL('image/png');
-//             const pdf = new jsPDF({
-//                 orientation: 'portrait',
-//                 unit: 'mm',
-//                 format: 'a4'
-//             });
+    // Set background color
+    doc.setFillColor(0, 123, 255); // Blue color (RGB)
+    doc.rect(10, 5, 190, 10, 'F');
+    // Add a header with black text
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(255, 255, 255); // Set text color to black
+    doc.setFontSize(20); // Set font size for the header
+    doc.text("Observations Table", 75, 12); // Add text at x=10, y=10
 
-//             const tableImgWidth = 190;
-//             const tableImgHeight = (tableCanvas.height * tableImgWidth) / tableCanvas.width;
+    //Add the table head
+    // const tableHead = await html2canvas(document.querySelector("#tablehead"), {
+    //     scale: 2,
+    // });
+    // const tableheadData = tableHead.toDataURL("image/png");
+    // doc.addImage(tableheadData, "PNG", 10,5 , 190, 20);
+    // Add the observation table
+    const tableCanvas = await html2canvas(document.querySelector("#table1"), {
+        scale: 2,
+    });
+    const tableImgData = tableCanvas.toDataURL("image/png");
+    doc.addImage(tableImgData, "PNG", 15, 17, 180, 120);
 
-//             pdf.addImage(tableImgData, 'PNG', 10, 20, tableImgWidth, tableImgHeight);
+    // Add the graph
+    const chartImage = myChart.toBase64Image();
+    // doc.addPage();
 
-//             // Capture the graph
-//             const graphCanvas = await html2canvas(document.querySelector("#myChart"), { scale: 2 });
-//             const graphImgData = graphCanvas.toDataURL('image/png');
-//             const graphImgWidth = 190;
-//             const graphImgHeight = (graphCanvas.height * graphImgWidth) / graphCanvas.width;
+    // //Add the graph head
+    // Set background color
+    doc.setFillColor(0, 123, 255); // Blue color (RGB)
+    doc.rect(10, 140, 190, 10, 'F');
+    // Add a header with black text
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(255, 255, 255); // Set text color to black
+    doc.setFontSize(20); // Set font size for the header
+    doc.text("Graph", 95, 147); // Add text at x=10, y=10
 
-//             // Add a new page for the graph if needed
-//             pdf.addPage();
-//             pdf.addImage(graphImgData, 'PNG', 10, 20, graphImgWidth, graphImgHeight);
+    doc.addImage(chartImage, "PNG", 25, 150, 150, 120);
 
-//             pdf.save("download.pdf");
-//         } catch (error) {
-//             console.error("Error generating PDF:", error);
-//             alert("An error occurred while generating the PDF. Please try again.");
-//         }
-//     };
+    
+    doc.addPage();
+    //calculation page
+    //Add the labels
+    doc.setFillColor(0, 123, 255); // Blue color (RGB)
+    doc.rect(10, 5, 190, 10, 'F');
+    // Add a header with black text
+    doc.setFont("helvetica", "bold");
+    doc.setTextColor(255, 255, 255); // Set text color to black
+    doc.setFontSize(20); // Set font size for the header
+    doc.text("Calculation", 75, 12);
 
-//     generatePDF();
-// });
+    doc.setTextColor(0,0,0);
+    doc.setFontSize(18);
+    doc.text("Energy Band Gap Calculation : ", 10, 25);
+
+    doc.setFontSize(15);
+    doc.text("Slope of the Graph is ",10,33)
+
+    doc.setTextColor(255, 0, 0);
+    doc.text(`${slope.toFixed(4)}`,65,33)
+
+    doc.setTextColor(0, 0, 0);
+    doc.text(`Bang Gap = 2.303 * 8.62 * 10   * ${slope.toFixed(4)} eV`,10,41)
+    doc.text(`Bang Gap = ${ebg} eV`,10,49)
+    doc.setFontSize(12)
+    doc.text("-5",80,38)
 
 
-const modal = document.getElementById("myModal");
 
-        // Get the button that opens the modal
+    // Save the PDF
+    doc.save("observations_and_graph.pdf");
+}
 
-        // Get the <span> element that closes the modal
-        
-
-        // Function to download the graph and observation table as a PDF
-        async function downloadGraphAndObservations() {
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-
-            // Add the observation table
-            const tableCanvas = await html2canvas(document.querySelector("#table1"), { scale: 2 });
-            const tableImgData = tableCanvas.toDataURL('image/png');
-
-            const tableImgWidth = 190;
-            const tableImgHeight = (tableCanvas.height * tableImgWidth) / tableCanvas.width;
-
-            doc.addImage(tableImgData, 'PNG', 10, 20, tableImgWidth, tableImgHeight);
-
-            // Add the graph
-            const chartImage = myChart.toBase64Image();
-            doc.addPage();
-            doc.addImage(chartImage, 'PNG', 10, 10, 180, 160);
-            
-            // const table = document.getElementById("table1");
-            // doc.autoTable({ html: table });
-            // Save the PDF
-            doc.save('observations_and_graph.pdf');
-        }
-
-        // Add event listener to the download button
-        document.getElementById('download').addEventListener('click', downloadGraphAndObservations);
+// Add event listener to the download button
+document.getElementById("download").addEventListener("click", downloadGraphAndObservations);

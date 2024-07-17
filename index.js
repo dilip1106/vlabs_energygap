@@ -21,8 +21,8 @@ localStorage.setItem("transitionDis", false);
 var btnPressed = [false, false, false];
 
 setTimeout(() => {
-  // enablingSequence(sequenceNum);
-  startWorking();
+  enablingSequence(sequenceNum);
+  // startWorking();
 }, 2000);
 
 function enablingSequence(sequenceNum) {
@@ -55,12 +55,8 @@ function trial(componentSom) {
     ++sequenceNum;
     if (sequenceNum < wireTerminalCheck.length) {
       enablingSequence(sequenceNum);
-      // console.log('here')
-      console.log("ye call hua");
     } else {
-      // console.log('here')
       replacement();
-      console.log("ye repalcement call  hua ");
     }
   }
 }
@@ -116,7 +112,7 @@ function getRndInteger(min, max) {
 function checkbtnPressed(btnNum) {
   btnPressed[btnNum] = true;
   if (btnNum == 0) {
-    document.getElementById("power").textContent = "01.00";
+    document.getElementById("power").textContent = "02.00";
     document.getElementById("volt").textContent = "06.83";
     document.getElementById("power-btn").style.strokeWidth = "0%";
   } else if (btnNum == 1) {
@@ -137,7 +133,7 @@ let curarr = [
 ];
 
 let curno = 6.83;
-let number = 27.0;
+let temprature = 27.0;
 
 let flag = 1;
 
@@ -147,9 +143,8 @@ function startWorking() {
   let curtext = document.getElementById("volt");
   let i=0;
   let intervalId = setInterval(() => {
-    // number+=getRndInteger(0.00,1.00);
-    number++;
-    temptext.textContent = number.toFixed(2);
+    temprature++;
+    temptext.textContent = temprature.toFixed(2);
     if (flag == 0) {
       curno = curarr[i++] + getRndInteger(0.1, 0.3);
       flag = 1;
@@ -158,12 +153,13 @@ function startWorking() {
       flag = 0;
     }
     curtext.textContent = curno.toFixed(2);
-    // Stop the interval after reaching a certain number
-    if (number >= 68.0) {
+    // Stop the interval after reaching a certain temprature
+    if (temprature >= 68.0) {
       clearInterval(intervalId);
+      document.getElementById("hotburner").style.display = "none";
       startdroping();
     }
-  }, 100); // Increase number every 100 milliseconds
+  }, 100); // Increase temprature every 100 milliseconds
 }
 
 function startdroping() {
@@ -173,7 +169,7 @@ function startdroping() {
   let flag = 1;
   var srno=0;
   let intervalId = setInterval(() => {
-    temptext.textContent = number.toFixed(2);
+    temptext.textContent = temprature.toFixed(2);
     if (flag == 0) {
       curno = curarr[i--] + getRndInteger(0.1, 0.3);
       flag = 1;
@@ -181,25 +177,25 @@ function startdroping() {
       curno = curarr[i--] - getRndInteger(0.1, 0.3);
       flag = 0;
     }
-    if(number%5===0.00){
-      filldata(srno,number,curno)
+    if(temprature%5===0.00){
+      filldata(srno,temprature,curno)
       srno++
       console.log("fill data callede");
     }
     curtext.textContent = curno.toFixed(2);
-    number--;
+    temprature--;
 
-    // Stop the interval after reaching a certain number
-    if (number <= 27.0) {
+    // Stop the interval after reaching a certain temprature
+    if (temprature <= 27.0) {
       clearInterval(intervalId);
     }
-  }, 100); // Increase number every 100 milliseconds
+  }, 1000); // Increase temprature every 100 milliseconds
 }
 
-function filldata(srno,number,curno){
+function filldata(srno,temprature,curno){
   rowData =  {'sno':0, 'tempc': 65, 'curr': 0}
   localStorage.setItem("rowData", JSON.stringify(rowData))
-      rowData.tempc=number
+      rowData.tempc=temprature
       rowData.sno = srno
       rowData.curr=curno
       console.log(srno);

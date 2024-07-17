@@ -8,7 +8,7 @@ var xValues = [0,2.9500,3.0000,3.050,3.100,3.1500,3.2000,3.2500,3.3000];
 // yValuesdum = [3.2000,3.100,2.963,2.834,2.605,2.542,2.371,2.232,1.905]; 
 
 var tinvValues = [];
-var logValues =  [];
+var logValues =  [3.2];
 var count =0
 let ebg=0
 
@@ -41,8 +41,12 @@ function fillTable(){
             srno.value = rowData.sno + 1
             tempc.value=rowData.tempc
             tempk.value=rowData.tempc+273
-            curr.value = (rowData.curr)
-            tsqr.value= Math.pow((rowData.tempc+273),2)
+
+            temp=(rowData.curr)
+            curr.value = temp.toFixed(2)
+
+            temp=Math.pow((rowData.tempc+273),2)
+            tsqr.value= temp.toFixed(0)
 
             temp=(Math.pow((rowData.tempc+273),-1)*1000)
             tinv.value=temp.toFixed(4)
@@ -76,7 +80,8 @@ function fillTable(){
 
 
 function drawGraph() {
-    // const myArray = [...myset];                              
+    // const myArray = [...myset];  
+    console.log("drawgraph called")                            
     const ctx = document.getElementById('myChart').getContext('2d');
     new Chart(ctx, {
         type: 'line',  
@@ -112,7 +117,41 @@ function drawGraph() {
     });
 }
 
-
+    // const myArray = [...myset];  
+                            
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const myChart = new Chart(ctx, {
+        type: 'line',  
+        data: {
+            labels: xValues,
+            datasets: [{
+                label: 'log(Is / T^2) vs 1/T',
+                data:logValues,
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 1,
+                fill: false,
+            }]
+        },
+        options: {
+            scales: {
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: '1/T (1/K)',
+                    }
+                }],
+                yAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'log(Is / T^2)',
+                    }
+                }]
+            },
+            responsive: true,
+            maintainAspectRatio: false
+        }
+    });
 
 document.querySelector('.calcslope').addEventListener('click', calslope);
 function calslope(){
@@ -141,7 +180,6 @@ function ebgcal(){
         res.innerHTML=ebg
     }
 }
-document.querySelector('.gen').addEventListener('click', drawGraph);
 
 snackbarFunction("Follow the Indicators and Click on the Terminals to make the connection.")
 
@@ -164,3 +202,77 @@ function openFullscreen() {
 }
 
 
+// document.getElementById('download').addEventListener('click', function() {
+//     const { jsPDF } = window.jspdf;
+
+//     const generatePDF = async () => {
+//         try {
+//             // Capture the table
+//             const tableCanvas = await html2canvas(document.querySelector("#table1"), { scale: 2 });
+//             const tableImgData = tableCanvas.toDataURL('image/png');
+//             const pdf = new jsPDF({
+//                 orientation: 'portrait',
+//                 unit: 'mm',
+//                 format: 'a4'
+//             });
+
+//             const tableImgWidth = 190;
+//             const tableImgHeight = (tableCanvas.height * tableImgWidth) / tableCanvas.width;
+
+//             pdf.addImage(tableImgData, 'PNG', 10, 20, tableImgWidth, tableImgHeight);
+
+//             // Capture the graph
+//             const graphCanvas = await html2canvas(document.querySelector("#myChart"), { scale: 2 });
+//             const graphImgData = graphCanvas.toDataURL('image/png');
+//             const graphImgWidth = 190;
+//             const graphImgHeight = (graphCanvas.height * graphImgWidth) / graphCanvas.width;
+
+//             // Add a new page for the graph if needed
+//             pdf.addPage();
+//             pdf.addImage(graphImgData, 'PNG', 10, 20, graphImgWidth, graphImgHeight);
+
+//             pdf.save("download.pdf");
+//         } catch (error) {
+//             console.error("Error generating PDF:", error);
+//             alert("An error occurred while generating the PDF. Please try again.");
+//         }
+//     };
+
+//     generatePDF();
+// });
+
+
+const modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+
+        // Get the <span> element that closes the modal
+        
+
+        // Function to download the graph and observation table as a PDF
+        async function downloadGraphAndObservations() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            // Add the observation table
+            const tableCanvas = await html2canvas(document.querySelector("#table1"), { scale: 2 });
+            const tableImgData = tableCanvas.toDataURL('image/png');
+
+            const tableImgWidth = 190;
+            const tableImgHeight = (tableCanvas.height * tableImgWidth) / tableCanvas.width;
+
+            doc.addImage(tableImgData, 'PNG', 10, 20, tableImgWidth, tableImgHeight);
+
+            // Add the graph
+            const chartImage = myChart.toBase64Image();
+            doc.addPage();
+            doc.addImage(chartImage, 'PNG', 10, 10, 180, 160);
+            
+            // const table = document.getElementById("table1");
+            // doc.autoTable({ html: table });
+            // Save the PDF
+            doc.save('observations_and_graph.pdf');
+        }
+
+        // Add event listener to the download button
+        document.getElementById('download').addEventListener('click', downloadGraphAndObservations);

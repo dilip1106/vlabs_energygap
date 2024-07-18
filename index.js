@@ -21,8 +21,8 @@ localStorage.setItem("transitionDis", false);
 var btnPressed = [false, false, false];
 
 setTimeout(() => {
-  enablingSequence(sequenceNum);
-  // startWorking();
+  // enablingSequence(sequenceNum);
+  startWorking();
 }, 2000);
 
 function enablingSequence(sequenceNum) {
@@ -189,7 +189,7 @@ function startdroping() {
     if (temprature <= 27.0) {
       clearInterval(intervalId);
     }
-  }, 1000); // Increase temprature every 100 milliseconds
+  }, 100); // Increase temprature every 100 milliseconds
 }
 
 function filldata(srno,temprature,curno){

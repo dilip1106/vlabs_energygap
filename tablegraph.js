@@ -58,7 +58,14 @@ function fillTable() {
         myChart.update();
         count++;
       }
+      let f=0;
       if (count == 8) {
+        if(f==0){
+          f=1;
+          snackbarFunction(
+            "For Calculation Take the Value of Slope from graph "
+          );
+        }
         document.querySelector(".slope-div").style.display = "block";
         document.querySelector("#download").style.display = "block";
       }
@@ -80,7 +87,7 @@ let myChart = new Chart(ctx, {
         data: logValues,
         borderColor: "rgba(75, 192, 192, 1)",
         backgroundColor: "rgba(75, 192, 192, 0.2)",
-        borderWidth: 1,
+        borderWidth: 2,
         fill: false,
       },
     ],
@@ -130,11 +137,15 @@ function calslope() {
   slope = (y2 - y1) / (x2 - x1);
   ebg = 2.303 * 8.62 * Math.pow(10, -5) * slope;
   slopevalue.innerHTML = slope.toFixed(4);
-  document.querySelector(".ebg").style.display = "block";
+  // document.querySelector(".ebg").style.display = "block";
 }
 
 
-document.querySelector(".ebgbtn").addEventListener("click", ebgcal);
+document.querySelector(".ebgbtn").addEventListener("click", function(event) {
+  event.preventDefault();  // Prevent the default form submission behavior
+  ebgcal();
+});
+
 function ebgcal() {
   let slopeinp = document.querySelector(".slopeinp");
   let res = document.querySelector(".ebgvalue");
@@ -156,7 +167,7 @@ function snackbarFunction(instruction) {
   x.className = "show";
   setTimeout(function () {
     x.className = x.className.replace("show", "");
-  }, 7000);
+  }, 10000);
 }
 
 var elem = document.getElementsByTagName("body")[0];

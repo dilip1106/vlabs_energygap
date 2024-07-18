@@ -19,93 +19,95 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-lg-5">
-                <div class="tablehead obs spc" id="tablehead">
-                    <h4>OBSERVATION TABLE</h4>
-                </div>
-                <div class="table mt-3">
-                    <table id="table1">
-                        <tr>
-                            <th class="px-3">Sr no.</th>
-                            <th class="px-3">T(<sup>O</sup>C)</th>
-                            <th class="px-3">T(<sup>O</sup>K)</th>
-                            <th class="px-3">I<sub>s</sub>(µA)</th>
-                            <th class="px-3">T<sup>2</sup>(<sup>O</sup>K)<sup>2</sup></th>
-                            <th class="px-3"><sup>10<sup>3</sup></sup>&frasl;<sub>T</sub>(<sup>O</sup>K)<sup>-1</sup></th>
-                            <th class="px-3">log<sup>I<sub>s</sub></sup>&frasl;<sub>T<sup>2</sup></sub></th>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" id="srno1" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log l2" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log l3" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log" type="text" disabled></td>
-                        </tr>
-                        <tr>
-                            <td><input class="srno" type="text" disabled></td>
-                            <td><input class="tempc" type="text" disabled></td>
-                            <td><input class="tempk" type="text" disabled></td>
-                            <td><input class="current" type="text" disabled></td>
-                            <td><input class="tempsqr" type="text" disabled></td>
-                            <td><input class="tempinv" type="text" disabled></td>
-                            <td><input class="log" type="text" disabled></td>
-                        </tr>
-                    </table>
+                <div>
+                    <div class="tablehead obs spc" id="tablehead">
+                        <h4>OBSERVATION TABLE</h4>
+                    </div>
+                    <div class="table mt-3">
+                        <table id="table1">
+                            <tr>
+                                <th class="px-3">Sr no.</th>
+                                <th class="px-3">T(<sup>O</sup>C)</th>
+                                <th class="px-3">T(<sup>O</sup>K)</th>
+                                <th class="px-3">I<sub>s</sub>(µA)</th>
+                                <th class="px-3">T<sup>2</sup>(<sup>O</sup>K)<sup>2</sup></th>
+                                <th class="px-3"><sup>10<sup>3</sup></sup>&frasl;<sub>T</sub>(<sup>O</sup>K)<sup>-1</sup></th>
+                                <th class="px-3">log<sup>I<sub>s</sub></sup>&frasl;<sub>T<sup>2</sup></sub></th>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" id="srno1" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log l2" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log l3" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log" type="text" disabled></td>
+                            </tr>
+                            <tr>
+                                <td><input class="srno" type="text" disabled></td>
+                                <td><input class="tempc" type="text" disabled></td>
+                                <td><input class="tempk" type="text" disabled></td>
+                                <td><input class="current" type="text" disabled></td>
+                                <td><input class="tempsqr" type="text" disabled></td>
+                                <td><input class="tempinv" type="text" disabled></td>
+                                <td><input class="log" type="text" disabled></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="flex mt-4 mx-4">
                     <button type="button" class="btn btn-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button>
@@ -121,12 +123,26 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
     </form>
-
+    <div class="formula">
+        <img class="formula-img" src="./assets/formula.png" alt="formula">
+        <p class="formula-desc">
+            where, <br> Is is the reverse saturation current,<br> A is a constant,<br> T is temperature, <br> k is Boltzman’s constant
+        </p>
+        <div class="ebg">
+            <h5>Energy band gap: </h5>
+            <h5>2.303 x 8.62 x 10<sup>-5</sup> x <input class="slopeinp" type="text" placeholder="Enter slope"></h5>
+            <button class="btn btn-primary ebgbtn">Calculate</button>
+        </div>  
+        <div class="ebgres">
+            <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
+        </div>
+    </div>
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-dialog modal-lg ">
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="staticBackdropLabel">Graph</h1>
@@ -137,7 +153,7 @@
             <div class="modal-body">
                 <div class="graph p-4" id="graph" style="margin-top: 10px;">
                     <div class="tablehead obs" id="graphhead">
-                        <h5>Plot of Energy Band Gap</h5>
+                        <h5>log(Is / T^2) vs 1/T</h5>
                     </div>
                     <canvas id="myChart"></canvas>
                 </div>
@@ -148,15 +164,7 @@
                             <h5 class="svalue">Slope is <span class="slopev"></span></h5>
                         </div>
                     </div>
-                </div>
-                <div class="ebg">
-                    <h5>Energy band gap: </h5>
-                    <h5>2.303 x 8.62 x 10<sup>-5</sup> x <input class="slopeinp" type="text" placeholder="Enter slope"></h5>
-                    <button class="btn btn-primary ebgbtn">Calculate</button>
                 </div>  
-                <div class="ebgres">
-                    <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
-                </div>
                 
             </div>
             <div class="modal-footer">

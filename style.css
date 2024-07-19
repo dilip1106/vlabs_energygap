@@ -204,6 +204,13 @@ tr{
 .slopev{
     color: red;
 }
+.table{
+    display: flex;
+    flex-direction: column;
+}
+#table1{
+    width: 100%;
+}
 /* .ebg{
     position: relative;
     left: 20px;
@@ -221,14 +228,14 @@ tr{
     border-radius: 5px;
     border: 2px solid #007bff;
 }
-.formula{
+/* .formula{
     position: relative;
     top: -300px;
     left: 50px;
-}
+}*/
 .formula-img{
-    width: 15%;
-}
+    width: 25%;
+} 
 /* .formula-img{
     position: relative;
     width: 60%;

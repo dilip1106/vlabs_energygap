@@ -107,12 +107,33 @@
                                 <td><input class="log" type="text" disabled></td>
                             </tr>
                         </table>
+                        <div class="flex mt-2 mx-4">
+                            <button type="button" class="btn btn-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button>
+                            <!-- <button type="button" class="btn btn-primary mx-4"  id="downloadj">Download</button> -->
+                        </div>
+                        <div class="formula">
+                            <img class="formula-img" src="./assets/formula.png" alt="formula">
+                            <p class="formula-desc">
+                                where, <br> Is is the reverse saturation current,<br> A is a constant,<br> T is temperature, <br> k is Boltzman’s constant
+                            </p>
+                            <div class="ebg">
+                                <h5>Energy band gap: </h5>
+                                <h5>2.303 x 8.62 x 10<sup>-5</sup> x <input class="slopeinp" type="text" placeholder="Enter slope"></h5>
+                                <button class="btn btn-primary ebgbtn">Calculate</button>
+                                <div class="ebgres">
+                                    <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
+                                </div>
+                            </div>  
+                            <!-- <div class="ebgres">
+                                <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
-                <div class="flex mt-4 mx-4">
-                    <button type="button" class="btn btn-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button>
+                <!-- <div class="flex mt-4 mx-4">
+                    <button type="button" class="btn btn-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button> -->
                     <!-- <button type="button" class="btn btn-primary mx-4"  id="downloadj">Download</button> -->
-                </div>
+                <!-- </div> -->
             </div>
             <div class="col-xs-12 col-lg-7 bt">
                 <div class="center-height">
@@ -127,7 +148,7 @@
         </div>
     </div>
     </form>
-    <div class="formula">
+    <!-- <div class="formula">
         <img class="formula-img" src="./assets/formula.png" alt="formula">
         <p class="formula-desc">
             where, <br> Is is the reverse saturation current,<br> A is a constant,<br> T is temperature, <br> k is Boltzman’s constant
@@ -140,7 +161,7 @@
         <div class="ebgres">
             <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
         </div>
-    </div>
+    </div> -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg ">
           <div class="modal-content">

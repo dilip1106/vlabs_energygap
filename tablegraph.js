@@ -47,11 +47,11 @@ function fillTable() {
       temp = Math.pow(rowData.tempc + 273, -1) * 1000;
       tinv.value = temp.toFixed(4);
 
-      temp = Math.log(rowData.curr);
+      temp = Math.log10(rowData.curr);
       log.value = temp.toFixed(3);
 
-      if (currtrigger > Math.log(rowData.curr)) {
-        currtrigger = Math.log(rowData.curr);
+      if (currtrigger > Math.log10(rowData.curr)) {
+        currtrigger = Math.log10(rowData.curr);
         logValues.push(currtrigger);
         console.log(logValues);
         // drawGraph()

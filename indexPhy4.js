@@ -21,8 +21,8 @@ localStorage.setItem("transitionDis", false);
 var btnPressed = [false, false, false];
 
 setTimeout(() => {
-  // enablingSequence(sequenceNum);
-  startWorking();
+  enablingSequence(sequenceNum);
+  // startWorking();
 }, 2000);
 
 function enablingSequence(sequenceNum) {
@@ -142,6 +142,7 @@ function startWorking() {
   let temptext = document.getElementById("temp");
   let curtext = document.getElementById("volt");
   let i=0;
+  var srno=0;
   let intervalId = setInterval(() => {
     temprature++;
     temptext.textContent = temprature.toFixed(2);
@@ -152,14 +153,19 @@ function startWorking() {
       curno = curarr[i++] - getRndInteger(0.1, 0.3);
       flag = 0;
     }
+    if(temprature%5===0.00){
+      filldata(srno,temprature,curno)
+      srno++
+      console.log("fill data callede");
+    }
     curtext.textContent = curno.toFixed(2);
     // Stop the interval after reaching a certain temprature
     if (temprature >= 68.0) {
       clearInterval(intervalId);
       document.getElementById("hotburner").style.display = "none";
-      startdroping();
+      // startdroping();
     }
-  }, 100); // Increase temprature every 100 milliseconds
+  }, 1000); // Increase temprature every 100 milliseconds
 }
 
 function startdroping() {

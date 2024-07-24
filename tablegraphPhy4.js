@@ -1,10 +1,12 @@
-currtrigger = 10;
-var xValues = [0, 2.95, 3.0, 3.05, 3.1, 3.15, 3.2, 3.25, 3.3];
-
-var logValues = [,];
+currtrigger = -10;
+// var xValues = [0, 2.95, 3.0, 3.05, 3.1, 3.15, 3.2, 3.25, 3.3];
+var xValues = [3.3,3.25,3.2,3.15,3.1,3.05,3.0,2.95,0];
+var logValues = [];
 var count = 0;
 let ebg = 0;
 let slope = 0;
+const set=new Set();
+let trigger =0
 setTimeout(() => {
   fillTable();
 }, 3700);
@@ -47,17 +49,30 @@ function fillTable() {
       temp = Math.pow(rowData.tempc + 273, -1) * 1000;
       tinv.value = temp.toFixed(4);
 
-      temp = Math.log10(rowData.curr);
+      temp = Math.log10(rowData.curr/Math.pow(rowData.tempc + 273, 2));
       log.value = temp.toFixed(3);
 
-      if (currtrigger > Math.log10(rowData.curr)) {
-        currtrigger = Math.log10(rowData.curr);
-        logValues.push(currtrigger);
+      if (currtrigger < rowData.tempc) {
+        currtrigger = rowData.tempc;
+        logValues.push(temp.toFixed(3));
         console.log(logValues);
         // drawGraph()
         myChart.update();
         count++;
       }
+
+
+      // logValues=[...set];
+      // set.add(temp.toFixed(3));
+      // if(set.size > trigger){
+      //   trigger = set.size;
+        
+      //   console.log(logValues);
+      //   myChart.update();
+      //   count++;
+      // }
+
+
       let f=0;
       if (count == 8) {
         if(f==0){
@@ -76,6 +91,52 @@ function fillTable() {
   }, 500);
 }
 
+// let ctx = document.getElementById("myChart").getContext("2d");
+// let myChart = new Chart(ctx, {
+//   type: "line",
+//   data: {
+//     labels: xValues,
+//     datasets: [
+//       {
+//         label: "log(Is / T^2) vs 1/T",
+//         data: logValues,
+//         borderColor: "rgba(75, 192, 192, 1)",
+//         backgroundColor: "rgba(75, 192, 192, 0.2)",
+//         borderWidth: 2,
+//         fill: false,
+//       },
+//     ],
+//   },
+//   options: {
+//     scales: {
+//       xAxes: [
+//         {
+//             scaleLabel: {
+//             display: true,
+//             labelString: "1/T (1/K)",
+//           },
+//         },
+//       ],
+//       yAxes: [
+//         {
+//             ticks: {
+//                 beginAtZero: true, // Start y-axis from 0
+//               },
+//             scaleLabel: {
+//             display: true,
+//             labelString: "log(Is / T^2)",
+//             beginAtZero: true,
+//           },
+//         },
+//       ],
+//     },
+//     responsive: true,
+//     maintainAspectRatio: false,
+//     animation:{
+//         duration:1
+//     }
+//   },
+// });
 let ctx = document.getElementById("myChart").getContext("2d");
 let myChart = new Chart(ctx, {
   type: "line",
@@ -84,7 +145,7 @@ let myChart = new Chart(ctx, {
     datasets: [
       {
         label: "log(Is / T^2) vs 1/T",
-        data: logValues,
+        data: logValues.reverse(),
         borderColor: "rgba(75, 192, 192, 1)",
         backgroundColor: "rgba(75, 192, 192, 0.2)",
         borderWidth: 2,
@@ -96,30 +157,34 @@ let myChart = new Chart(ctx, {
     scales: {
       xAxes: [
         {
-            scaleLabel: {
+          scaleLabel: {
             display: true,
             labelString: "1/T (1/K)",
+          },
+          position: 'top', // Position x-axis at the top
+          ticks: {
+            reverse: true, // Reverse the x-axis
           },
         },
       ],
       yAxes: [
         {
-            ticks: {
-                beginAtZero: true, // Start y-axis from 0
-              },
-            scaleLabel: {
+          ticks: {
+            beginAtZero: true, // Start y-axis from 0
+            reverse: false, // Reverse the y-axis
+          },
+          scaleLabel: {
             display: true,
             labelString: "log(Is / T^2)",
-            beginAtZero: true,
           },
         },
       ],
     },
     responsive: true,
     maintainAspectRatio: false,
-    animation:{
-        duration:1
-    }
+    animation: {
+      duration: 1,
+    },
   },
 });
 
@@ -238,22 +303,26 @@ async function downloadGraphAndObservations() {
     doc.setFontSize(20); // Set font size for the header
     doc.text("Calculation", 75, 12);
 
-    doc.setTextColor(0,0,0);
-    doc.setFontSize(18);
-    doc.text("Energy Band Gap Calculation : ", 10, 25);
+    // doc.setTextColor(0,0,0);
+    // doc.setFontSize(18);
+    // doc.text("Energy Band Gap Calculation : ", 10, 25);
 
-    doc.setFontSize(15);
-    doc.text("Slope of the Graph is ",10,33)
+    // doc.setFontSize(15);
+    // doc.text("Slope of the Graph is ",10,33)
 
-    doc.setTextColor(255, 0, 0);
-    doc.text(`${slope.toFixed(4)}`,65,33)
+    // doc.setTextColor(255, 0, 0);
+    // doc.text(`${slope.toFixed(4)}`,65,33)
 
-    doc.setTextColor(0, 0, 0);
-    doc.text(`Bang Gap = 2.303 * 8.62 * 10   * ${slope.toFixed(4)} eV`,10,41)
-    doc.text(`Bang Gap = ${ebg} eV`,10,49)
-    doc.setFontSize(12)
-    doc.text("-5",80,38)
-
+    // doc.setTextColor(0, 0, 0);
+    // doc.text(`Bang Gap = 2.303 * 8.62 * 10   * ${slope.toFixed(4)} eV`,10,41)
+    // doc.text(`Bang Gap = ${ebg} eV`,10,49)
+    // doc.setFontSize(12)
+    // doc.text("-5",80,38)
+    const calc = await html2canvas(document.querySelector(".formula"), {
+      scale: 2,
+  });
+  const calcimg = calc.toDataURL("image/png");
+  doc.addImage(calcimg, "PNG", 15, 17, 180, 120);
 
 
     // Save the PDF

@@ -166,7 +166,7 @@ function startWorking() {
       document.getElementById("hotburner").style.display = "none";
       // startdroping();
     }
-  }, 100); // Increase temprature every 100 milliseconds
+  }, 1000); // Increase temprature every 100 milliseconds
 }
 
 function startdroping() {

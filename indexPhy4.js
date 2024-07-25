@@ -1,10 +1,3 @@
-// 0->one 1->two 2->three 3->four
-
-
-
-// wireTerminalCheck = [{'one': false,'five': false}, {'three': false,'five': false},
-//                         {'six': false, 'four': false},{'two': false, 'six': false}]
-
 wireTerminalCheck = [{ two: false, six: false },{ six: false, four: false },
                   { five: false, three: false },{ one: false, five: false },];
 
@@ -135,7 +128,7 @@ function checkbtnPressed(btnNum) {
 let curarr = [
   7.83, 8.46, 9.01, 10.3, 11.8, 13.8, 15.2, 17.8, 19.5, 22.4, 24.6, 27.2,28.9, 32.4, 
   36.5, 40.8, 44.3, 48.1, 52.2, 56.1, 60.9, 64.2, 68.13, 72.4, 77.9, 85.3, 91.4, 
-  99.5,102.4,109.5,116.7,123.5,126.6,138.7,145.4,153.6,158.7,165.4,171.3,175.8];
+  99.5,102.4,109.5,116.7,123.5,126.6,138.7,145.4,153.6,158.7,165.4,171.3,175.8,175.8];
 
 // let curarr = [];
 
@@ -160,45 +153,6 @@ function startWorking() {
       curno = curarr[i++] - getRndInteger(0.5, 1.5);
       flag = 0;
     }
-    // if(temprature < 30){
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 33 ) {
-    //   curno = getRndInteger(10.0,9.9);
-    // }else if(temprature < 35 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 37 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 39 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 40 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 41 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 43 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 45 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 47 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 49 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 50 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 53 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 55 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 58 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 60 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 62 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 63 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }else if(temprature < 66 ) {
-    //   curno = getRndInteger(8.0,9.9);
-    // }
     if(temprature%5===0.00){
       filldata(srno,temprature,curno)
       srno++

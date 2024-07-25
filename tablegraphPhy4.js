@@ -200,7 +200,7 @@ function calslope() {
   y2 = logValues[4];
 
   slope = (y2 - y1) / (x2 - x1);
-  ebg = 2.303 * 8.62 * Math.pow(10, -5) * slope;
+  ebg = 2.303 * 8.62 * Math.pow(10, -5) * slope * 1000;
   slopevalue.innerHTML = slope.toFixed(4);
   // document.querySelector(".ebg").style.display = "block";
 }
@@ -218,7 +218,7 @@ function ebgcal() {
     alert("Enter correct slope");
   } else {
     document.querySelector(".ebgres").style.display = "block";
-    res.innerHTML = ebg;
+    res.innerHTML = ebg.toFixed(4);
   }
 }
 

@@ -1,3 +1,5 @@
+let type="silicon";
+
 wireTerminalCheck = [{ two: false, six: false },{ six: false, four: false },
                   { five: false, three: false },{ one: false, five: false },];
 
@@ -115,7 +117,12 @@ function checkbtnPressed(btnNum) {
   }
 
   if (btnPressed[0] && btnPressed[1] && btnPressed[2]) {
-    startWorking();
+    if(type==="silicon"){
+      startWorking();
+    }
+    else{
+      startWorkingGer();
+    }
   }
 }
 
@@ -167,6 +174,7 @@ function startWorking() {
     if (temprature >= 68.0) {
       clearInterval(intervalId);
       document.getElementById("hotburner").style.display = "none";
+      hi();
       // startdroping();
     }
   }, 1000); // Increase temprature every 100 milliseconds
@@ -210,4 +218,8 @@ function filldata(srno,temprature,curno){
       rowData.curr=curno
       console.log(srno);
       localStorage.setItem('rowData', JSON.stringify(rowData)) 
+}
+
+function startWorkingGer(){
+  alert("bhai mai germanium hu");
 }

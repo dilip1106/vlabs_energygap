@@ -335,3 +335,9 @@ async function downloadGraphAndObservations() {
 
 // Add event listener to the download button
 document.getElementById("download").addEventListener("click", downloadGraphAndObservations);
+
+
+document.getElementById('inlineFormSelectPref').addEventListener('change', function() {
+  var contentUrl = this.value;
+  document.getElementById('main-svg').data = contentUrl;
+});

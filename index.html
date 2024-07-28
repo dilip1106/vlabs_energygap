@@ -10,11 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
-    
-      
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
 <body>
     <form>
 
@@ -110,36 +105,36 @@
                                 <td><input class="log" type="text" disabled></td>
                             </tr>
                         </table>
-                        <div class="flex mt-2 mx-4">
-                            <button type="button" class="btn btn-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button>
+                        <div class="flex mt-2  py-3 w-100">
+                            <div class="tablehead obs spc" id="tablehead">
+                                <h4>CALCULATION</h4>
+                            </div>
+                            <!-- <button type="button" class="btn btn-outline-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button> -->
                             <!-- <button type="button" class="btn btn-primary mx-4"  id="downloadj">Download</button> -->
                         </div>
                         <div class="formula">
-                            <!-- <img class="formula-img" src="./assets/formula.png" alt="formula"> -->
-                            <p>
-                                \({I_s}=A{T^2} \exp\left(\frac{-E_g}{kT}\right) \)
-                            </p>
-                            <p class="formula-desc">
-                                where, <br> Is is the reverse saturation current,<br> A is a constant,<br> T is temperature, <br> k is Boltzman’s constant
-                            </p>
-                            <div class="ebg">
+                            <h5>
+                                E<sub>g</sub> = 2.303 * 8.62 * k * slope
+                            </h5>
+                            <h6 class="formula-desc">
+                                where,<br> k is Boltzman’s constant ( 8.62 x 10<sup>-5</sup> eV)
+                            </h6>
+                            <div class="ebg py-4">
                                 <h5>Energy band gap: </h5>
                                 <h5>2.303 x 8.62 x 10<sup>-5</sup> x <input class="slopeinp" type="text" placeholder="Enter slope"></h5>
-                                <button class="btn btn-primary ebgbtn">Calculate</button>
+
+                                <div class="py-3 calcbtn">
+                                    <button type="button" class="btn btn-outline-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button>
+                                    <button class="btn btn-outline-primary ebgbtn">Calculate</button>
+                                </div>
                                 <div class="ebgres">
                                     <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
                                 </div>
                             </div>  
-                            <!-- <div class="ebgres">
-                                <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
-                            </div> -->
                         </div>
                     </div>
                 </div>
-                <!-- <div class="flex mt-4 mx-4">
-                    <button type="button" class="btn btn-primary mr-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Graph</button> -->
-                    <!-- <button type="button" class="btn btn-primary mx-4"  id="downloadj">Download</button> -->
-                <!-- </div> -->
+        
             </div>
             <div class="col-xs-12 col-lg-7 bt">
                 <div class="center-height">
@@ -154,20 +149,6 @@
         </div>
     </div>
     </form>
-    <!-- <div class="formula">
-        <img class="formula-img" src="./assets/formula.png" alt="formula">
-        <p class="formula-desc">
-            where, <br> Is is the reverse saturation current,<br> A is a constant,<br> T is temperature, <br> k is Boltzman’s constant
-        </p>
-        <div class="ebg">
-            <h5>Energy band gap: </h5>
-            <h5>2.303 x 8.62 x 10<sup>-5</sup> x <input class="slopeinp" type="text" placeholder="Enter slope"></h5>
-            <button class="btn btn-primary ebgbtn">Calculate</button>
-        </div>  
-        <div class="ebgres">
-            <h5>E<sub>g </sub>: <span class="ebgvalue"></span> eV</h5>
-        </div>
-    </div> -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg ">
           <div class="modal-content">

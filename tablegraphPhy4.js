@@ -214,12 +214,14 @@ document.querySelector(".ebgbtn").addEventListener("click", function(event) {
 function ebgcal() {
   let slopeinp = document.querySelector(".slopeinp");
   let res = document.querySelector(".ebgvalue");
-  if (slopeinp.value !== slope.toFixed(4)) {
-    alert("Enter correct slope");
+  if (slopeinp.value === "") {
+    alert("Enter slope");
   } else {
-    document.querySelector(".ebgres").style.display = "block";
-    res.innerHTML = ebg.toFixed(4);
+    let result = 2.303 * 8.62 * Math.pow(10, -5) * slopeinp.value  * 1000
+  document.querySelector(".ebgres").style.display = "block";
+  res.innerHTML = result.toFixed(4);
   }
+  
 }
 
 snackbarFunction(
@@ -318,6 +320,7 @@ async function downloadGraphAndObservations() {
     // doc.text(`Bang Gap = ${ebg} eV`,10,49)
     // doc.setFontSize(12)
     // doc.text("-5",80,38)
+      document.querySelector(".calcbtn").style.display="none";
     const calc = await html2canvas(document.querySelector(".formula"), {
       scale: 2,
   });
@@ -327,6 +330,7 @@ async function downloadGraphAndObservations() {
 
     // Save the PDF
     doc.save("observations_and_graph.pdf");
+    document.querySelector(".calcbtn").style.display="block";
 }
 
 // Add event listener to the download button

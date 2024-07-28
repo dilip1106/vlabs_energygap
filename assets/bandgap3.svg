@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="204mm" height="159mm" version="1.1" viewBox="0 0 204 159" id="svg2288" sodipodi:docname="bandgap3.svg" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xml:space="preserve" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-	<namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="2.5859276" inkscape:cx="320.38793" inkscape:cy="353.25815" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg2288" showgrid="false" />
+	<namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="3.6570539" inkscape:cx="366.68861" inkscape:cy="557.96279" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="keyBase1" showgrid="false" />
 	<namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.2929638" inkscape:cx="385.5483" inkscape:cy="299.69903" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="table-board" />
 	<namedview id="namedview1" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:zoom="1.2929638" inkscape:cx="417.2584" inkscape:cy="215.3966" inkscape:window-width="1920" inkscape:window-height="991" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="background-wall" />
 	<style id="style1558">
@@ -9,6 +9,10 @@
 	</style>
 	<script xlink:href="../indexPhy4.js" id="script1560" />
 	<defs id="defs1584">
+		<rect x="581.41612" y="315.36072" width="63.806891" height="18.562005" id="rect26" />
+		<rect x="603.84521" y="307.23985" width="14.69492" height="32.0968" id="rect12" />
+		<rect x="604.03857" y="307.4332" width="14.114858" height="32.290154" id="rect11" />
+		<rect x="604.23192" y="307.23985" width="14.114858" height="32.290154" id="rect10" />
 		<rect x="338.75658" y="390.18881" width="44.084761" height="25.909465" id="rect25" />
 		<rect x="310.52687" y="320.58129" width="102.47773" height="15.081629" id="rect4" />
 		<rect x="396.37614" y="192.19409" width="56.072722" height="22.04238" id="rect24" />
@@ -509,7 +513,7 @@
 					<tspan dx="4.8552704" id="tspan251">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="730.53306" id="tspan336">
+				<tspan x="502.14844" y="730.53306" id="tspan335">
 					<tspan dx="6.2966766" id="tspan253">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan254">
@@ -518,11 +522,13 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan256">
 					</tspan>
-					<tspan dx="6.2966766" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan335">
+					<tspan dx="6.2966766" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan257">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="745.67197" id="tspan343">
-					<tspan style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan337">
+				<tspan x="502.14844" y="745.67197" id="tspan342">
+					<tspan style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan336">
+					</tspan>
+					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan337">
 					</tspan>
 					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan338">
 					</tspan>
@@ -530,25 +536,25 @@
 					</tspan>
 					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan340">
 					</tspan>
-					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan341">
-					</tspan>
-					<tspan dx="4.8552704" id="tspan342">
+					<tspan dx="4.8552704" id="tspan341">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="760.81088" id="tspan349">
+				<tspan x="502.14844" y="760.81088" id="tspan348">
+					<tspan dx="6.2966766" id="tspan343">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan344">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan345">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan346">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan347">
-					</tspan>
-					<tspan dx="6.2966766" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan348">
+					<tspan dx="6.2966766" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan347">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="775.94979" id="tspan356">
-					<tspan style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan350">
+				<tspan x="502.14844" y="775.94979" id="tspan355">
+					<tspan style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan349">
+					</tspan>
+					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan350">
 					</tspan>
 					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan351">
 					</tspan>
@@ -556,25 +562,25 @@
 					</tspan>
 					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan353">
 					</tspan>
-					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan354">
-					</tspan>
-					<tspan dx="4.8552704" id="tspan355">
+					<tspan dx="4.8552704" id="tspan354">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="791.0887" id="tspan362">
+				<tspan x="502.14844" y="791.0887" id="tspan361">
+					<tspan dx="6.2966766" id="tspan356">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan357">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan358">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan359">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan360">
-					</tspan>
-					<tspan dx="6.2966766" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan361">
+					<tspan dx="6.2966766" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan360">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="806.22761" id="tspan369">
-					<tspan style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan363">
+				<tspan x="502.14844" y="806.22761" id="tspan368">
+					<tspan style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan362">
+					</tspan>
+					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan363">
 					</tspan>
 					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan364">
 					</tspan>
@@ -582,12 +588,12 @@
 					</tspan>
 					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan366">
 					</tspan>
-					<tspan dx="4.8552704" style="font-weight:bold;font-stretch:condensed;font-family:Arial;-inkscape-font-specification:'Arial Bold Condensed';fill:#ffffff" id="tspan367">
-					</tspan>
-					<tspan dx="4.8552704" id="tspan368">
+					<tspan dx="4.8552704" id="tspan367">
 					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="821.36652" id="tspan375">
+				<tspan x="502.14844" y="821.36652" id="tspan374">
+					<tspan dx="6.2966766" id="tspan369">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan370">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan371">
@@ -596,10 +602,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan373">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan374">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="836.36652" id="tspan381">
+				<tspan x="502.14844" y="836.36652" id="tspan380">
+					<tspan dx="6.2966766" id="tspan375">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan376">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan377">
@@ -608,30 +614,30 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan379">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan380">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="851.36652" id="tspan386">
+				<tspan x="502.14844" y="851.36652" id="tspan385">
+					<tspan dx="6.2966766" id="tspan381">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan382">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan383">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan384">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan385">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="866.36652" id="tspan391">
+				<tspan x="502.14844" y="866.36652" id="tspan390">
+					<tspan dx="6.2966766" id="tspan386">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan387">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan388">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan389">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan390">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="881.36652" id="tspan397">
+				<tspan x="502.14844" y="881.36652" id="tspan396">
+					<tspan dx="6.2966766" id="tspan391">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan392">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan393">
@@ -640,10 +646,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan395">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan396">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="896.36652" id="tspan403">
+				<tspan x="502.14844" y="896.36652" id="tspan402">
+					<tspan dx="6.2966766" id="tspan397">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan398">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan399">
@@ -652,10 +658,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan401">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan402">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="911.36652" id="tspan409">
+				<tspan x="502.14844" y="911.36652" id="tspan408">
+					<tspan dx="6.2966766" id="tspan403">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan404">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan405">
@@ -664,10 +670,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan407">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan408">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="926.36652" id="tspan415">
+				<tspan x="502.14844" y="926.36652" id="tspan414">
+					<tspan dx="6.2966766" id="tspan409">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan410">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan411">
@@ -676,10 +682,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan413">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan414">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="941.36652" id="tspan421">
+				<tspan x="502.14844" y="941.36652" id="tspan420">
+					<tspan dx="6.2966766" id="tspan415">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan416">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan417">
@@ -688,10 +694,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan419">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan420">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="956.36652" id="tspan427">
+				<tspan x="502.14844" y="956.36652" id="tspan426">
+					<tspan dx="6.2966766" id="tspan421">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan422">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan423">
@@ -700,10 +706,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan425">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan426">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="971.36652" id="tspan433">
+				<tspan x="502.14844" y="971.36652" id="tspan432">
+					<tspan dx="6.2966766" id="tspan427">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan428">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan429">
@@ -712,10 +718,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan431">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan432">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="986.36652" id="tspan481">
+				<tspan x="502.14844" y="986.36652" id="tspan438">
+					<tspan dx="6.2966766" id="tspan433">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan434">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan435">
@@ -724,30 +730,30 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan437">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan438">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1001.3665" id="tspan486">
+				<tspan x="502.14844" y="1001.3665" id="tspan485">
+					<tspan dx="6.2966766" id="tspan481">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan482">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan483">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan484">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan485">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1016.3665" id="tspan491">
+				<tspan x="502.14844" y="1016.3665" id="tspan490">
+					<tspan dx="6.2966766" id="tspan486">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan487">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan488">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan489">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan490">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1031.3665" id="tspan497">
+				<tspan x="502.14844" y="1031.3665" id="tspan496">
+					<tspan dx="6.2966766" id="tspan491">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan492">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan493">
@@ -756,10 +762,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan495">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan496">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1046.3665" id="tspan503">
+				<tspan x="502.14844" y="1046.3665" id="tspan502">
+					<tspan dx="6.2966766" id="tspan497">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan498">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan499">
@@ -768,10 +774,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan501">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan502">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1061.3665" id="tspan509">
+				<tspan x="502.14844" y="1061.3665" id="tspan508">
+					<tspan dx="6.2966766" id="tspan503">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan504">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan505">
@@ -780,10 +786,10 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan507">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan508">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1076.3665" id="tspan515">
+				<tspan x="502.14844" y="1076.3665" id="tspan514">
+					<tspan dx="6.2966766" id="tspan509">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan510">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan511">
@@ -792,74 +798,74 @@
 					</tspan>
 					<tspan dx="6.2966766" id="tspan513">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan514">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1091.3665" id="tspan520">
+				<tspan x="502.14844" y="1091.3665" id="tspan519">
+					<tspan dx="6.2966766" id="tspan515">
+					</tspan>
 					<tspan dx="6.2966766" id="tspan516">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan517">
 					</tspan>
 					<tspan dx="6.2966766" id="tspan518">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan519">
-					</tspan>
 				</tspan>
-				<tspan x="502.14844" y="1106.3665" id="tspan523">
-					<tspan dx="6.2966766" id="tspan521">
+				<tspan x="502.14844" y="1106.3665" id="tspan522">
+					<tspan dx="6.2966766" id="tspan520">
 					</tspan>
-					<tspan dx="6.2966766" id="tspan522">
+					<tspan dx="6.2966766" id="tspan521">
 					</tspan>
 				</tspan>
 			</text>
 		</pattern>
 		<pattern patternUnits="userSpaceOnUse" width="13.609375" height="4.72583" patternTransform="translate(392.33773,28.627784)" id="pattern15168">
 			<text xml:space="preserve" transform="translate(-395.51318,-26.895723)" id="text11636" style="font-size:6.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect11638);display:inline">
-				<tspan x="394.91016" y="31.621553" id="tspan524">
+				<tspan x="394.91016" y="31.621553" id="tspan523">
 				</tspan>
-				<tspan x="394.91016" y="39.746553" id="tspan525">
+				<tspan x="394.91016" y="39.746553" id="tspan524">
 				</tspan>
-				<tspan x="394.91016" y="41.727022" id="tspan530">
+				<tspan x="394.91016" y="41.727022" id="tspan529">
+					<tspan dx="3.4106998" id="tspan525">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan526">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan527">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan528">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan529">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="49.852022" id="tspan535">
+				<tspan x="394.91016" y="49.852022" id="tspan534">
+					<tspan dx="3.4106998" id="tspan530">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan531">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan532">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan533">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan534">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="57.977022" id="tspan540">
+				<tspan x="394.91016" y="57.977022" id="tspan539">
+					<tspan dx="3.4106998" id="tspan535">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan536">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan537">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan538">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan539">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="66.102022" id="tspan545">
+				<tspan x="394.91016" y="66.102022" id="tspan544">
+					<tspan dx="3.4106998" id="tspan540">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan541">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan542">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan543">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan544">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="74.227022" id="tspan551">
+				<tspan x="394.91016" y="74.227022" id="tspan550">
+					<tspan dx="3.4106998" id="tspan545">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan546">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan547">
@@ -868,10 +874,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan549">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan550">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="82.352022" id="tspan557">
+				<tspan x="394.91016" y="82.352022" id="tspan556">
+					<tspan dx="3.4106998" id="tspan551">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan552">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan553">
@@ -880,10 +886,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan555">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan556">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="90.477022" id="tspan563">
+				<tspan x="394.91016" y="90.477022" id="tspan562">
+					<tspan dx="3.4106998" id="tspan557">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan558">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan559">
@@ -892,10 +898,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan561">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan562">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="98.602022" id="tspan569">
+				<tspan x="394.91016" y="98.602022" id="tspan568">
+					<tspan dx="3.4106998" id="tspan563">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan564">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan565">
@@ -904,10 +910,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan567">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan568">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="106.72702" id="tspan575">
+				<tspan x="394.91016" y="106.72702" id="tspan574">
+					<tspan dx="3.4106998" id="tspan569">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan570">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan571">
@@ -916,10 +922,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan573">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan574">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="114.85202" id="tspan581">
+				<tspan x="394.91016" y="114.85202" id="tspan580">
+					<tspan dx="3.4106998" id="tspan575">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan576">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan577">
@@ -928,10 +934,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan579">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan580">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="122.97702" id="tspan587">
+				<tspan x="394.91016" y="122.97702" id="tspan586">
+					<tspan dx="3.4106998" id="tspan581">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan582">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan583">
@@ -940,10 +946,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan585">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan586">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="131.10202" id="tspan593">
+				<tspan x="394.91016" y="131.10202" id="tspan592">
+					<tspan dx="3.4106998" id="tspan587">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan588">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan589">
@@ -952,23 +958,23 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan591">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan592">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="139.22702" id="tspan599">
+				<tspan x="394.91016" y="139.22702" id="tspan598">
+					<tspan dx="3.4106998" id="tspan593">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan594">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan595">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan596">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan597">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan598">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan597">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="147.35202" id="tspan606">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan600">
+				<tspan x="394.91016" y="147.35202" id="tspan605">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan599">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan600">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan601">
 					</tspan>
@@ -976,45 +982,45 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan603">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan604">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan605">
+					<tspan dx="3.7918568" id="tspan604">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="155.47702" id="tspan611">
+				<tspan x="394.91016" y="155.47702" id="tspan610">
+					<tspan dx="3.4106998" id="tspan606">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan607">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan608">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan609">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan610">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="163.60202" id="tspan616">
+				<tspan x="394.91016" y="163.60202" id="tspan615">
+					<tspan dx="3.4106998" id="tspan611">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan612">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan613">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan614">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan615">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="171.72702" id="tspan622">
+				<tspan x="394.91016" y="171.72702" id="tspan621">
+					<tspan dx="3.4106998" id="tspan616">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan617">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan618">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan619">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan620">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan621">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan620">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="179.85202" id="tspan629">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan623">
+				<tspan x="394.91016" y="179.85202" id="tspan628">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan622">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan623">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan624">
 					</tspan>
@@ -1022,25 +1028,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan626">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan627">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan628">
+					<tspan dx="3.7918568" id="tspan627">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="187.97702" id="tspan635">
+				<tspan x="394.91016" y="187.97702" id="tspan634">
+					<tspan dx="3.4106998" id="tspan629">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan630">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan631">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan632">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan633">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan634">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan633">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="196.10202" id="tspan642">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan636">
+				<tspan x="394.91016" y="196.10202" id="tspan641">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan635">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan636">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan637">
 					</tspan>
@@ -1048,25 +1054,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan639">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan640">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan641">
+					<tspan dx="3.7918568" id="tspan640">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="204.22702" id="tspan648">
+				<tspan x="394.91016" y="204.22702" id="tspan647">
+					<tspan dx="3.4106998" id="tspan642">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan643">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan644">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan645">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan646">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan647">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan646">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="212.35202" id="tspan655">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan649">
+				<tspan x="394.91016" y="212.35202" id="tspan654">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan648">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan649">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan650">
 					</tspan>
@@ -1074,25 +1080,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan652">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan653">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan654">
+					<tspan dx="3.7918568" id="tspan653">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="220.47702" id="tspan661">
+				<tspan x="394.91016" y="220.47702" id="tspan660">
+					<tspan dx="3.4106998" id="tspan655">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan656">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan657">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan658">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan659">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan660">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan659">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="228.60202" id="tspan668">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan662">
+				<tspan x="394.91016" y="228.60202" id="tspan667">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan661">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan662">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan663">
 					</tspan>
@@ -1100,25 +1106,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan665">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan666">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan667">
+					<tspan dx="3.7918568" id="tspan666">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="236.72702" id="tspan674">
+				<tspan x="394.91016" y="236.72702" id="tspan673">
+					<tspan dx="3.4106998" id="tspan668">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan669">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan670">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan671">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan672">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan673">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan672">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="244.85202" id="tspan681">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan675">
+				<tspan x="394.91016" y="244.85202" id="tspan680">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan674">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan675">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan676">
 					</tspan>
@@ -1126,25 +1132,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan678">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan679">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan680">
+					<tspan dx="3.7918568" id="tspan679">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="252.97702" id="tspan687">
+				<tspan x="394.91016" y="252.97702" id="tspan686">
+					<tspan dx="3.4106998" id="tspan681">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan682">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan683">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan684">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan685">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan686">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan685">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="261.10202" id="tspan694">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan688">
+				<tspan x="394.91016" y="261.10202" id="tspan693">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan687">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan688">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan689">
 					</tspan>
@@ -1152,25 +1158,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan691">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan692">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan693">
+					<tspan dx="3.7918568" id="tspan692">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="269.22702" id="tspan700">
+				<tspan x="394.91016" y="269.22702" id="tspan699">
+					<tspan dx="3.4106998" id="tspan694">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan695">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan696">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan697">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan698">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan699">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan698">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="277.35202" id="tspan708">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan701">
+				<tspan x="394.91016" y="277.35202" id="tspan707">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan700">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan701">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan702">
 					</tspan>
@@ -1180,14 +1186,14 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan705">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan706">
-					</tspan>
-					<tspan dx="3.7918568 5.0114746 4.4401855 4.7893066" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan707">
+					<tspan dx="3.7918568 5.0114746 4.4401855 4.7893066" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan706">
 						KEY
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="285.47702" id="tspan715">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan709">
+				<tspan x="394.91016" y="285.47702" id="tspan714">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan708">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan709">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan710">
 					</tspan>
@@ -1195,45 +1201,45 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan712">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan713">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan714">
+					<tspan dx="3.7918568" id="tspan713">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="293.60202" id="tspan720">
+				<tspan x="394.91016" y="293.60202" id="tspan719">
+					<tspan dx="3.4106998" id="tspan715">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan716">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan717">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan718">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan719">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="301.72702" id="tspan725">
+				<tspan x="394.91016" y="301.72702" id="tspan724">
+					<tspan dx="3.4106998" id="tspan720">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan721">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan722">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan723">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan724">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="309.85202" id="tspan731">
+				<tspan x="394.91016" y="309.85202" id="tspan730">
+					<tspan dx="3.4106998" id="tspan725">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan726">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan727">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan728">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan729">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan730">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan729">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="317.97702" id="tspan738">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan732">
+				<tspan x="394.91016" y="317.97702" id="tspan737">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan731">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan732">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan733">
 					</tspan>
@@ -1241,25 +1247,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan735">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan736">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan737">
+					<tspan dx="3.7918568" id="tspan736">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="326.10202" id="tspan744">
+				<tspan x="394.91016" y="326.10202" id="tspan743">
+					<tspan dx="3.4106998" id="tspan738">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan739">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan740">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan741">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan742">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan743">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan742">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="334.22702" id="tspan751">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan745">
+				<tspan x="394.91016" y="334.22702" id="tspan750">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan744">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan745">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan746">
 					</tspan>
@@ -1267,25 +1273,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan748">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan749">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan750">
+					<tspan dx="3.7918568" id="tspan749">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="342.35202" id="tspan757">
+				<tspan x="394.91016" y="342.35202" id="tspan756">
+					<tspan dx="3.4106998" id="tspan751">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan752">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan753">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan754">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan755">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan756">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan755">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="350.47702" id="tspan764">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan758">
+				<tspan x="394.91016" y="350.47702" id="tspan763">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan757">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan758">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan759">
 					</tspan>
@@ -1293,25 +1299,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan761">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan762">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan763">
+					<tspan dx="3.7918568" id="tspan762">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="358.60202" id="tspan770">
+				<tspan x="394.91016" y="358.60202" id="tspan769">
+					<tspan dx="3.4106998" id="tspan764">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan765">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan766">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan767">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan768">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan769">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan768">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="366.72702" id="tspan777">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan771">
+				<tspan x="394.91016" y="366.72702" id="tspan776">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan770">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan771">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan772">
 					</tspan>
@@ -1319,25 +1325,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan774">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan775">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan776">
+					<tspan dx="3.7918568" id="tspan775">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="374.85202" id="tspan783">
+				<tspan x="394.91016" y="374.85202" id="tspan782">
+					<tspan dx="3.4106998" id="tspan777">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan778">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan779">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan780">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan781">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan782">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan781">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="382.97702" id="tspan790">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan784">
+				<tspan x="394.91016" y="382.97702" id="tspan789">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan783">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan784">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan785">
 					</tspan>
@@ -1345,12 +1351,12 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan787">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan788">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan789">
+					<tspan dx="3.7918568" id="tspan788">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="391.10202" id="tspan796">
+				<tspan x="394.91016" y="391.10202" id="tspan795">
+					<tspan dx="3.4106998" id="tspan790">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan791">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan792">
@@ -1359,10 +1365,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan794">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan795">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="399.22702" id="tspan802">
+				<tspan x="394.91016" y="399.22702" id="tspan801">
+					<tspan dx="3.4106998" id="tspan796">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan797">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan798">
@@ -1371,30 +1377,30 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan800">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan801">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="407.35202" id="tspan807">
+				<tspan x="394.91016" y="407.35202" id="tspan806">
+					<tspan dx="3.4106998" id="tspan802">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan803">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan804">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan805">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan806">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="415.47702" id="tspan812">
+				<tspan x="394.91016" y="415.47702" id="tspan811">
+					<tspan dx="3.4106998" id="tspan807">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan808">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan809">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan810">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan811">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="423.60202" id="tspan818">
+				<tspan x="394.91016" y="423.60202" id="tspan817">
+					<tspan dx="3.4106998" id="tspan812">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan813">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan814">
@@ -1403,10 +1409,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan816">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan817">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="431.72702" id="tspan824">
+				<tspan x="394.91016" y="431.72702" id="tspan823">
+					<tspan dx="3.4106998" id="tspan818">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan819">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan820">
@@ -1415,10 +1421,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan822">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan823">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="439.85202" id="tspan830">
+				<tspan x="394.91016" y="439.85202" id="tspan829">
+					<tspan dx="3.4106998" id="tspan824">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan825">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan826">
@@ -1427,10 +1433,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan828">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan829">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="447.97702" id="tspan836">
+				<tspan x="394.91016" y="447.97702" id="tspan835">
+					<tspan dx="3.4106998" id="tspan830">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan831">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan832">
@@ -1439,10 +1445,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan834">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan835">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="456.10202" id="tspan842">
+				<tspan x="394.91016" y="456.10202" id="tspan841">
+					<tspan dx="3.4106998" id="tspan836">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan837">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan838">
@@ -1451,10 +1457,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan840">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan841">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="464.22702" id="tspan848">
+				<tspan x="394.91016" y="464.22702" id="tspan847">
+					<tspan dx="3.4106998" id="tspan842">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan843">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan844">
@@ -1463,10 +1469,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan846">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan847">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="472.35202" id="tspan854">
+				<tspan x="394.91016" y="472.35202" id="tspan853">
+					<tspan dx="3.4106998" id="tspan848">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan849">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan850">
@@ -1475,10 +1481,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan852">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan853">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="480.47702" id="tspan860">
+				<tspan x="394.91016" y="480.47702" id="tspan859">
+					<tspan dx="3.4106998" id="tspan854">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan855">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan856">
@@ -1487,30 +1493,30 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan858">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan859">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="488.60202" id="tspan865">
+				<tspan x="394.91016" y="488.60202" id="tspan864">
+					<tspan dx="3.4106998" id="tspan860">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan861">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan862">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan863">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan864">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="496.72702" id="tspan870">
+				<tspan x="394.91016" y="496.72702" id="tspan869">
+					<tspan dx="3.4106998" id="tspan865">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan866">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan867">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan868">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan869">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="504.85202" id="tspan876">
+				<tspan x="394.91016" y="504.85202" id="tspan875">
+					<tspan dx="3.4106998" id="tspan870">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan871">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan872">
@@ -1519,10 +1525,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan874">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan875">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="512.97702" id="tspan882">
+				<tspan x="394.91016" y="512.97702" id="tspan881">
+					<tspan dx="3.4106998" id="tspan876">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan877">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan878">
@@ -1531,10 +1537,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan880">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan881">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="521.10202" id="tspan888">
+				<tspan x="394.91016" y="521.10202" id="tspan887">
+					<tspan dx="3.4106998" id="tspan882">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan883">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan884">
@@ -1543,10 +1549,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan886">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan887">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="529.22702" id="tspan894">
+				<tspan x="394.91016" y="529.22702" id="tspan893">
+					<tspan dx="3.4106998" id="tspan888">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan889">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan890">
@@ -1555,74 +1561,74 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan892">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan893">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="537.35202" id="tspan899">
+				<tspan x="394.91016" y="537.35202" id="tspan898">
+					<tspan dx="3.4106998" id="tspan894">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan895">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan896">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan897">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan898">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="545.47702" id="tspan902">
-					<tspan dx="3.4106998" id="tspan900">
+				<tspan x="394.91016" y="545.47702" id="tspan901">
+					<tspan dx="3.4106998" id="tspan899">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan901">
+					<tspan dx="3.4106998" id="tspan900">
 					</tspan>
 				</tspan>
 			</text>
 		</pattern>
 		<pattern patternUnits="userSpaceOnUse" width="13.609375" height="4.72583" patternTransform="translate(392.33773,28.627784)" id="pattern15168-6">
 			<text xml:space="preserve" transform="translate(-395.51318,-26.895723)" id="text11636-1" style="font-size:6.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;white-space:pre;shape-inside:url(#rect11638-0);display:inline">
-				<tspan x="394.91016" y="31.621553" id="tspan903">
+				<tspan x="394.91016" y="31.621553" id="tspan902">
 				</tspan>
-				<tspan x="394.91016" y="39.746553" id="tspan904">
+				<tspan x="394.91016" y="39.746553" id="tspan903">
 				</tspan>
-				<tspan x="394.91016" y="41.727022" id="tspan909">
+				<tspan x="394.91016" y="41.727022" id="tspan908">
+					<tspan dx="3.4106998" id="tspan904">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan905">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan906">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan907">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan908">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="49.852022" id="tspan914">
+				<tspan x="394.91016" y="49.852022" id="tspan913">
+					<tspan dx="3.4106998" id="tspan909">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan910">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan911">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan912">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan913">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="57.977022" id="tspan919">
+				<tspan x="394.91016" y="57.977022" id="tspan918">
+					<tspan dx="3.4106998" id="tspan914">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan915">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan916">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan917">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan918">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="66.102022" id="tspan924">
+				<tspan x="394.91016" y="66.102022" id="tspan923">
+					<tspan dx="3.4106998" id="tspan919">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan920">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan921">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan922">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan923">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="74.227022" id="tspan930">
+				<tspan x="394.91016" y="74.227022" id="tspan929">
+					<tspan dx="3.4106998" id="tspan924">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan925">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan926">
@@ -1631,10 +1637,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan928">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan929">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="82.352022" id="tspan936">
+				<tspan x="394.91016" y="82.352022" id="tspan935">
+					<tspan dx="3.4106998" id="tspan930">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan931">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan932">
@@ -1643,10 +1649,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan934">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan935">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="90.477022" id="tspan942">
+				<tspan x="394.91016" y="90.477022" id="tspan941">
+					<tspan dx="3.4106998" id="tspan936">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan937">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan938">
@@ -1655,10 +1661,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan940">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan941">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="98.602022" id="tspan948">
+				<tspan x="394.91016" y="98.602022" id="tspan947">
+					<tspan dx="3.4106998" id="tspan942">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan943">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan944">
@@ -1667,10 +1673,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan946">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan947">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="106.72702" id="tspan954">
+				<tspan x="394.91016" y="106.72702" id="tspan953">
+					<tspan dx="3.4106998" id="tspan948">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan949">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan950">
@@ -1679,10 +1685,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan952">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan953">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="114.85202" id="tspan960">
+				<tspan x="394.91016" y="114.85202" id="tspan959">
+					<tspan dx="3.4106998" id="tspan954">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan955">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan956">
@@ -1691,10 +1697,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan958">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan959">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="122.97702" id="tspan966">
+				<tspan x="394.91016" y="122.97702" id="tspan965">
+					<tspan dx="3.4106998" id="tspan960">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan961">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan962">
@@ -1703,10 +1709,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan964">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan965">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="131.10202" id="tspan972">
+				<tspan x="394.91016" y="131.10202" id="tspan971">
+					<tspan dx="3.4106998" id="tspan966">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan967">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan968">
@@ -1715,23 +1721,23 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan970">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan971">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="139.22702" id="tspan978">
+				<tspan x="394.91016" y="139.22702" id="tspan977">
+					<tspan dx="3.4106998" id="tspan972">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan973">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan974">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan975">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan976">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan977">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan976">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="147.35202" id="tspan985">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan979">
+				<tspan x="394.91016" y="147.35202" id="tspan984">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan978">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan979">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan980">
 					</tspan>
@@ -1739,45 +1745,45 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan982">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan983">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan984">
+					<tspan dx="3.7918568" id="tspan983">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="155.47702" id="tspan990">
+				<tspan x="394.91016" y="155.47702" id="tspan989">
+					<tspan dx="3.4106998" id="tspan985">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan986">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan987">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan988">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan989">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="163.60202" id="tspan995">
+				<tspan x="394.91016" y="163.60202" id="tspan994">
+					<tspan dx="3.4106998" id="tspan990">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan991">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan992">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan993">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan994">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="171.72702" id="tspan1001">
+				<tspan x="394.91016" y="171.72702" id="tspan1000">
+					<tspan dx="3.4106998" id="tspan995">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan996">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan997">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan998">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan999">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1000">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan999">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="179.85202" id="tspan1008">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1002">
+				<tspan x="394.91016" y="179.85202" id="tspan1007">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1001">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1002">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1003">
 					</tspan>
@@ -1785,25 +1791,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1005">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1006">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1007">
+					<tspan dx="3.7918568" id="tspan1006">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="187.97702" id="tspan1014">
+				<tspan x="394.91016" y="187.97702" id="tspan1013">
+					<tspan dx="3.4106998" id="tspan1008">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1009">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1010">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1011">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1012">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1013">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1012">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="196.10202" id="tspan1021">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1015">
+				<tspan x="394.91016" y="196.10202" id="tspan1020">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1014">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1015">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1016">
 					</tspan>
@@ -1811,25 +1817,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1018">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1019">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1020">
+					<tspan dx="3.7918568" id="tspan1019">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="204.22702" id="tspan1027">
+				<tspan x="394.91016" y="204.22702" id="tspan1026">
+					<tspan dx="3.4106998" id="tspan1021">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1022">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1023">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1024">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1025">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1026">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1025">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="212.35202" id="tspan1034">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1028">
+				<tspan x="394.91016" y="212.35202" id="tspan1033">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1027">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1028">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1029">
 					</tspan>
@@ -1837,25 +1843,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1031">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1032">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1033">
+					<tspan dx="3.7918568" id="tspan1032">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="220.47702" id="tspan1040">
+				<tspan x="394.91016" y="220.47702" id="tspan1039">
+					<tspan dx="3.4106998" id="tspan1034">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1035">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1036">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1037">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1038">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1039">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1038">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="228.60202" id="tspan1047">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1041">
+				<tspan x="394.91016" y="228.60202" id="tspan1046">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1040">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1041">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1042">
 					</tspan>
@@ -1863,25 +1869,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1044">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1045">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1046">
+					<tspan dx="3.7918568" id="tspan1045">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="236.72702" id="tspan1053">
+				<tspan x="394.91016" y="236.72702" id="tspan1052">
+					<tspan dx="3.4106998" id="tspan1047">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1048">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1049">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1050">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1051">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1052">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1051">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="244.85202" id="tspan1060">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1054">
+				<tspan x="394.91016" y="244.85202" id="tspan1059">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1053">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1054">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1055">
 					</tspan>
@@ -1889,25 +1895,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1057">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1058">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1059">
+					<tspan dx="3.7918568" id="tspan1058">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="252.97702" id="tspan1066">
+				<tspan x="394.91016" y="252.97702" id="tspan1065">
+					<tspan dx="3.4106998" id="tspan1060">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1061">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1062">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1063">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1064">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1065">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1064">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="261.10202" id="tspan1073">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1067">
+				<tspan x="394.91016" y="261.10202" id="tspan1072">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1066">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1067">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1068">
 					</tspan>
@@ -1915,25 +1921,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1070">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1071">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1072">
+					<tspan dx="3.7918568" id="tspan1071">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="269.22702" id="tspan1079">
+				<tspan x="394.91016" y="269.22702" id="tspan1078">
+					<tspan dx="3.4106998" id="tspan1073">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1074">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1075">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1076">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1077">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1078">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1077">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="277.35202" id="tspan1087">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1080">
+				<tspan x="394.91016" y="277.35202" id="tspan1086">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1079">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1080">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1081">
 					</tspan>
@@ -1943,14 +1949,14 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1084">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1085">
-					</tspan>
-					<tspan dx="3.7918568 5.0114746 4.4401855 4.7893066" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1086">
+					<tspan dx="3.7918568 5.0114746 4.4401855 4.7893066" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1085">
 						KEY
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="285.47702" id="tspan1094">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1088">
+				<tspan x="394.91016" y="285.47702" id="tspan1093">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1087">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1088">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1089">
 					</tspan>
@@ -1958,45 +1964,45 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1091">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1092">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1093">
+					<tspan dx="3.7918568" id="tspan1092">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="293.60202" id="tspan1099">
+				<tspan x="394.91016" y="293.60202" id="tspan1098">
+					<tspan dx="3.4106998" id="tspan1094">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1095">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1096">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1097">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1098">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="301.72702" id="tspan1104">
+				<tspan x="394.91016" y="301.72702" id="tspan1103">
+					<tspan dx="3.4106998" id="tspan1099">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1100">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1101">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1102">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1103">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="309.85202" id="tspan1110">
+				<tspan x="394.91016" y="309.85202" id="tspan1109">
+					<tspan dx="3.4106998" id="tspan1104">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1105">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1106">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1107">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1108">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1109">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1108">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="317.97702" id="tspan1117">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1111">
+				<tspan x="394.91016" y="317.97702" id="tspan1116">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1110">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1111">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1112">
 					</tspan>
@@ -2004,25 +2010,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1114">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1115">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1116">
+					<tspan dx="3.7918568" id="tspan1115">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="326.10202" id="tspan1123">
+				<tspan x="394.91016" y="326.10202" id="tspan1122">
+					<tspan dx="3.4106998" id="tspan1117">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1118">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1119">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1120">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1121">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1122">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1121">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="334.22702" id="tspan1130">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1124">
+				<tspan x="394.91016" y="334.22702" id="tspan1129">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1123">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1124">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1125">
 					</tspan>
@@ -2030,25 +2036,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1127">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1128">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1129">
+					<tspan dx="3.7918568" id="tspan1128">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="342.35202" id="tspan1136">
+				<tspan x="394.91016" y="342.35202" id="tspan1135">
+					<tspan dx="3.4106998" id="tspan1130">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1131">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1132">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1133">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1134">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1135">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1134">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="350.47702" id="tspan1143">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1137">
+				<tspan x="394.91016" y="350.47702" id="tspan1142">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1136">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1137">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1138">
 					</tspan>
@@ -2056,25 +2062,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1140">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1141">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1142">
+					<tspan dx="3.7918568" id="tspan1141">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="358.60202" id="tspan1149">
+				<tspan x="394.91016" y="358.60202" id="tspan1148">
+					<tspan dx="3.4106998" id="tspan1143">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1144">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1145">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1146">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1147">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1148">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1147">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="366.72702" id="tspan1156">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1150">
+				<tspan x="394.91016" y="366.72702" id="tspan1155">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1149">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1150">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1151">
 					</tspan>
@@ -2082,25 +2088,25 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1153">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1154">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1155">
+					<tspan dx="3.7918568" id="tspan1154">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="374.85202" id="tspan1162">
+				<tspan x="394.91016" y="374.85202" id="tspan1161">
+					<tspan dx="3.4106998" id="tspan1156">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1157">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1158">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1159">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1160">
-					</tspan>
-					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1161">
+					<tspan dx="3.4106998" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1160">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="382.97702" id="tspan1169">
-					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1163">
+				<tspan x="394.91016" y="382.97702" id="tspan1168">
+					<tspan style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1162">
+					</tspan>
+					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1163">
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1164">
 					</tspan>
@@ -2108,12 +2114,12 @@
 					</tspan>
 					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1166">
 					</tspan>
-					<tspan dx="3.7918568" style="font-weight:bold;-inkscape-font-specification:'sans-serif Bold';fill:#ffffff" id="tspan1167">
-					</tspan>
-					<tspan dx="3.7918568" id="tspan1168">
+					<tspan dx="3.7918568" id="tspan1167">
 					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="391.10202" id="tspan1175">
+				<tspan x="394.91016" y="391.10202" id="tspan1174">
+					<tspan dx="3.4106998" id="tspan1169">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1170">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1171">
@@ -2122,10 +2128,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1173">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1174">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="399.22702" id="tspan1181">
+				<tspan x="394.91016" y="399.22702" id="tspan1180">
+					<tspan dx="3.4106998" id="tspan1175">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1176">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1177">
@@ -2134,30 +2140,30 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1179">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1180">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="407.35202" id="tspan1186">
+				<tspan x="394.91016" y="407.35202" id="tspan1185">
+					<tspan dx="3.4106998" id="tspan1181">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1182">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1183">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1184">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1185">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="415.47702" id="tspan1191">
+				<tspan x="394.91016" y="415.47702" id="tspan1190">
+					<tspan dx="3.4106998" id="tspan1186">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1187">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1188">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1189">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1190">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="423.60202" id="tspan1197">
+				<tspan x="394.91016" y="423.60202" id="tspan1196">
+					<tspan dx="3.4106998" id="tspan1191">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1192">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1193">
@@ -2166,10 +2172,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1195">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1196">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="431.72702" id="tspan1203">
+				<tspan x="394.91016" y="431.72702" id="tspan1202">
+					<tspan dx="3.4106998" id="tspan1197">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1198">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1199">
@@ -2178,10 +2184,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1201">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1202">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="439.85202" id="tspan1209">
+				<tspan x="394.91016" y="439.85202" id="tspan1208">
+					<tspan dx="3.4106998" id="tspan1203">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1204">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1205">
@@ -2190,10 +2196,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1207">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1208">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="447.97702" id="tspan1215">
+				<tspan x="394.91016" y="447.97702" id="tspan1214">
+					<tspan dx="3.4106998" id="tspan1209">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1210">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1211">
@@ -2202,10 +2208,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1213">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1214">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="456.10202" id="tspan1221">
+				<tspan x="394.91016" y="456.10202" id="tspan1220">
+					<tspan dx="3.4106998" id="tspan1215">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1216">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1217">
@@ -2214,10 +2220,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1219">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1220">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="464.22702" id="tspan1227">
+				<tspan x="394.91016" y="464.22702" id="tspan1226">
+					<tspan dx="3.4106998" id="tspan1221">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1222">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1223">
@@ -2226,10 +2232,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1225">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1226">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="472.35202" id="tspan1233">
+				<tspan x="394.91016" y="472.35202" id="tspan1232">
+					<tspan dx="3.4106998" id="tspan1227">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1228">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1229">
@@ -2238,10 +2244,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1231">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1232">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="480.47702" id="tspan1239">
+				<tspan x="394.91016" y="480.47702" id="tspan1238">
+					<tspan dx="3.4106998" id="tspan1233">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1234">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1235">
@@ -2250,30 +2256,30 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1237">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1238">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="488.60202" id="tspan1244">
+				<tspan x="394.91016" y="488.60202" id="tspan1243">
+					<tspan dx="3.4106998" id="tspan1239">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1240">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1241">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1242">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1243">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="496.72702" id="tspan1249">
+				<tspan x="394.91016" y="496.72702" id="tspan1248">
+					<tspan dx="3.4106998" id="tspan1244">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1245">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1246">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1247">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1248">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="504.85202" id="tspan1255">
+				<tspan x="394.91016" y="504.85202" id="tspan1254">
+					<tspan dx="3.4106998" id="tspan1249">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1250">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1251">
@@ -2282,10 +2288,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1253">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1254">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="512.97702" id="tspan1261">
+				<tspan x="394.91016" y="512.97702" id="tspan1260">
+					<tspan dx="3.4106998" id="tspan1255">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1256">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1257">
@@ -2294,10 +2300,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1259">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1260">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="521.10202" id="tspan1267">
+				<tspan x="394.91016" y="521.10202" id="tspan1266">
+					<tspan dx="3.4106998" id="tspan1261">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1262">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1263">
@@ -2306,10 +2312,10 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1265">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1266">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="529.22702" id="tspan1273">
+				<tspan x="394.91016" y="529.22702" id="tspan1272">
+					<tspan dx="3.4106998" id="tspan1267">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1268">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1269">
@@ -2318,23 +2324,21 @@
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1271">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1272">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="537.35202" id="tspan1278">
+				<tspan x="394.91016" y="537.35202" id="tspan1277">
+					<tspan dx="3.4106998" id="tspan1273">
+					</tspan>
 					<tspan dx="3.4106998" id="tspan1274">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1275">
 					</tspan>
 					<tspan dx="3.4106998" id="tspan1276">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1277">
-					</tspan>
 				</tspan>
-				<tspan x="394.91016" y="545.47702" id="tspan1281">
-					<tspan dx="3.4106998" id="tspan1279">
+				<tspan x="394.91016" y="545.47702" id="tspan1280">
+					<tspan dx="3.4106998" id="tspan1278">
 					</tspan>
-					<tspan dx="3.4106998" id="tspan1280">
+					<tspan dx="3.4106998" id="tspan1279">
 					</tspan>
 				</tspan>
 			</text>
@@ -2386,6 +2390,16 @@
 		</text>
 		<g id="g2" transform="matrix(0.24397634,0,0,0.22527716,-34.93266,-6.2216924)">
 			<g id="g7" inkscape:label="bb-liquidout" />
+			<text xml:space="preserve" transform="matrix(4.6975055,0,0,3.1016118,-1377.9199,-495.30941)" id="text20-7" style="font-size:8px;white-space:pre;shape-inside:url(#rect22-7);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
+				<tspan x="452" y="210" id="tspan1281">
+					-
+				</tspan>
+			</text>
+			<text xml:space="preserve" transform="matrix(2.7085241,0,0,2.6627395,-618.8905,-347.78048)" id="text22-7" style="font-size:8px;white-space:pre;shape-inside:url(#rect23-7);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
+				<tspan x="512" y="211.867" id="tspan1282">
+					+
+				</tspan>
+			</text>
 			<g id="g4" inkscape:label="bb-burner">
 				<path style="opacity:1;fill:#808080;fill-opacity:1;stroke:#ffffff;stroke-width:1.79896;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" d="M 559.16747,281.53217 H 525.13043" id="path105" />
 				<path style="opacity:1;fill:#808080;fill-opacity:1;stroke:#ffffff;stroke-width:1.65843;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" d="m 525.11597,250.42012 v 30.59593" id="path95" transform="translate(1.2808619e-6)" />
@@ -2462,27 +2476,27 @@
 			</g>
 			<g id="g24" inkscape:label="bb-names" transform="matrix(4.0987581,0,0,4.4389765,143.18052,27.617946)">
 				<text xml:space="preserve" transform="matrix(0.37930945,0,0,0.80875449,-54.071786,-22.268331)" id="text2" style="font-size:8px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-					<tspan x="469.46484" y="47.128721" id="tspan1282">
+					<tspan x="469.46484" y="47.128721" id="tspan1283">
 						Thermometer
 					</tspan>
 				</text>
 				<text xml:space="preserve" transform="matrix(0.56866599,0,0,0.58149031,-147.01693,-56.369905)" id="text16" style="font-size:8px;white-space:pre;shape-inside:url(#rect20);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-					<tspan x="489.18555" y="189.82599" id="tspan1283">
+					<tspan x="489.18555" y="189.82599" id="tspan1284">
 						µA
 					</tspan>
 				</text>
 				<text xml:space="preserve" transform="matrix(1.1460802,0,0,0.84343528,-407.50539,-118.85787)" id="text20" style="font-size:8px;white-space:pre;shape-inside:url(#rect22);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-					<tspan x="464.82422" y="210.70685" id="tspan1284">
+					<tspan x="464.82422" y="210.70685" id="tspan1285">
 						-
 					</tspan>
 				</text>
 				<text xml:space="preserve" transform="matrix(0.66081579,0,0,0.59985439,-208.35428,-69.462763)" id="text22" style="font-size:8px;white-space:pre;shape-inside:url(#rect23);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-					<tspan x="527.08398" y="211.867" id="tspan1285">
+					<tspan x="527.08398" y="211.867" id="tspan1286">
 						+
 					</tspan>
 				</text>
 				<text xml:space="preserve" transform="matrix(0.36127947,0,0,0.43690604,-40.347681,-32.658487)" id="text23" style="font-size:8px;white-space:pre;shape-inside:url(#rect24);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-					<tspan x="396.37695" y="199.492" id="tspan1286">
+					<tspan x="396.37695" y="199.492" id="tspan1287">
 						Burner
 					</tspan>
 				</text>
@@ -2503,16 +2517,6 @@
 			</g>
 		</g>
 	</g>
-	<text xml:space="preserve" transform="matrix(1.1460802,0,0,0.69872229,-371.11253,-117.80359)" id="text20-7" style="font-size:8px;white-space:pre;shape-inside:url(#rect22-7);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-		<tspan x="464.82422" y="210.70685" id="tspan1287">
-			-
-		</tspan>
-	</text>
-	<text xml:space="preserve" transform="matrix(0.66081579,0,0,0.59985439,-185.9273,-84.568691)" id="text22-7" style="font-size:8px;white-space:pre;shape-inside:url(#rect23-7);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-		<tspan x="527.08398" y="211.867" id="tspan1288">
-			+
-		</tspan>
-	</text>
 	<path transform="matrix(0.1998,0,0,0.2106,313.26,89.734)" d="m -1130,-35.5 c -67.3,80.2 -18,283 -139,323 -16.6,5.52 -32.3,6.84 -50.1,6.68 -54.8,-0.476 -85.2,-35.8 -85.2,-66 0,-9.32 7.19,-41.2 17.5,-40.6" style="display:none;opacity:0.275;fill:none;stroke:#000000;stroke-width:3.06;filter:url(#filter91465)" id="path1740" />
 	<script id="mesh_polyfill" type="text/javascript">
 		!function(){const t=&quot;http://www.w3.org/2000/svg&quot;,e=&quot;http://www.w3.org/1999/xlink&quot;,s=&quot;http://www.w3.org/1999/xhtml&quot;,r=2;if(document.createElementNS(t,&quot;meshgradient&quot;).x)return;const n=(t,e,s,r)=&gt;{let n=new x(.5*(e.x+s.x),.5*(e.y+s.y)),o=new x(.5*(t.x+e.x),.5*(t.y+e.y)),i=new x(.5*(s.x+r.x),.5*(s.y+r.y)),a=new x(.5*(n.x+o.x),.5*(n.y+o.y)),h=new x(.5*(n.x+i.x),.5*(n.y+i.y)),l=new x(.5*(a.x+h.x),.5*(a.y+h.y));return[[t,o,a,l],[l,h,i,r]]},o=t=&gt;{let e=t[0].distSquared(t[1]),s=t[2].distSquared(t[3]),r=.25*t[0].distSquared(t[2]),n=.25*t[1].distSquared(t[3]),o=e&gt;s?e:s,i=r&gt;n?r:n;return 18*(o&gt;i?o:i)},i=(t,e)=&gt;Math.sqrt(t.distSquared(e)),a=(t,e)=&gt;t.scale(2/3).add(e.scale(1/3)),h=t=&gt;{let e,s,r,n,o,i,a,h=new g;return t.match(/(\w+\(\s*[^)]+\))+/g).forEach(t=&gt;{let l=t.match(/[\w.-]+/g),d=l.shift();switch(d){case&quot;translate&quot;:2===l.length?e=new g(1,0,0,1,l[0],l[1]):(console.error(&quot;mesh.js: translate does not have 2 arguments!&quot;),e=new g(1,0,0,1,0,0)),h=h.append(e);break;case&quot;scale&quot;:1===l.length?s=new g(l[0],0,0,l[0],0,0):2===l.length?s=new g(l[0],0,0,l[1],0,0):(console.error(&quot;mesh.js: scale does not have 1 or 2 arguments!&quot;),s=new g(1,0,0,1,0,0)),h=h.append(s);break;case&quot;rotate&quot;:if(3===l.length&amp;&amp;(e=new g(1,0,0,1,l[1],l[2]),h=h.append(e)),l[0]){r=l[0]*Math.PI/180;let t=Math.cos(r),e=Math.sin(r);Math.abs(t)&lt;1e-16&amp;&amp;(t=0),Math.abs(e)&lt;1e-16&amp;&amp;(e=0),a=new g(t,e,-e,t,0,0),h=h.append(a)}else console.error(&quot;math.js: No argument to rotate transform!&quot;);3===l.length&amp;&amp;(e=new g(1,0,0,1,-l[1],-l[2]),h=h.append(e));break;case&quot;skewX&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),o=new g(1,0,n,1,0,0),h=h.append(o)):console.error(&quot;math.js: No argument to skewX transform!&quot;);break;case&quot;skewY&quot;:l[0]?(r=l[0]*Math.PI/180,n=Math.tan(r),i=new g(1,n,0,1,0,0),h=h.append(i)):console.error(&quot;math.js: No argument to skewY transform!&quot;);break;case&quot;matrix&quot;:6===l.length?h=h.append(new g(...l)):console.error(&quot;math.js: Incorrect number of arguments for matrix!&quot;);break;default:console.error(&quot;mesh.js: Unhandled transform type: &quot;+d)}}),h},l=t=&gt;{let e=[],s=t.split(/[ ,]+/);for(let t=0,r=s.length-1;t&lt;r;t+=2)e.push(new x(parseFloat(s[t]),parseFloat(s[t+1])));return e},d=(t,e)=&gt;{for(let s in e)t.setAttribute(s,e[s])},c=(t,e,s,r,n)=&gt;{let o,i,a=[0,0,0,0];for(let h=0;h&lt;3;++h)e[h]&lt;t[h]&amp;&amp;e[h]&lt;s[h]||t[h]&lt;e[h]&amp;&amp;s[h]&lt;e[h]?a[h]=0:(a[h]=.5*((e[h]-t[h])/r+(s[h]-e[h])/n),o=Math.abs(3*(e[h]-t[h])/r),i=Math.abs(3*(s[h]-e[h])/n),a[h]&gt;o?a[h]=o:a[h]&gt;i&amp;&amp;(a[h]=i));return a},u=[[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[-3,3,0,0,-2,-1,0,0,0,0,0,0,0,0,0,0],[2,-2,0,0,1,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,-3,3,0,0,-2,-1,0,0],[0,0,0,0,0,0,0,0,2,-2,0,0,1,1,0,0],[-3,0,3,0,0,0,0,0,-2,0,-1,0,0,0,0,0],[0,0,0,0,-3,0,3,0,0,0,0,0,-2,0,-1,0],[9,-9,-9,9,6,3,-6,-3,6,-6,3,-3,4,2,2,1],[-6,6,6,-6,-3,-3,3,3,-4,4,-2,2,-2,-2,-1,-1],[2,0,-2,0,0,0,0,0,1,0,1,0,0,0,0,0],[0,0,0,0,2,0,-2,0,0,0,0,0,1,0,1,0],[-6,6,6,-6,-4,-2,4,2,-3,3,-3,3,-2,-1,-2,-1],[4,-4,-4,4,2,2,-2,-2,2,-2,2,-2,1,1,1,1]],f=t=&gt;{let e=[];for(let s=0;s&lt;16;++s){e[s]=0;for(let r=0;r&lt;16;++r)e[s]+=u[s][r]*t[r]}return e},p=(t,e,s)=&gt;{const r=e*e,n=s*s,o=e*e*e,i=s*s*s;return t[0]+t[1]*e+t[2]*r+t[3]*o+t[4]*s+t[5]*s*e+t[6]*s*r+t[7]*s*o+t[8]*n+t[9]*n*e+t[10]*n*r+t[11]*n*o+t[12]*i+t[13]*i*e+t[14]*i*r+t[15]*i*o},y=t=&gt;{let e=[],s=[],r=[];for(let s=0;s&lt;4;++s)e[s]=[],e[s][0]=n(t[0][s],t[1][s],t[2][s],t[3][s]),e[s][1]=[],e[s][1].push(...n(...e[s][0][0])),e[s][1].push(...n(...e[s][0][1])),e[s][2]=[],e[s][2].push(...n(...e[s][1][0])),e[s][2].push(...n(...e[s][1][1])),e[s][2].push(...n(...e[s][1][2])),e[s][2].push(...n(...e[s][1][3]));for(let t=0;t&lt;8;++t){s[t]=[];for(let r=0;r&lt;4;++r)s[t][r]=[],s[t][r][0]=n(e[0][2][t][r],e[1][2][t][r],e[2][2][t][r],e[3][2][t][r]),s[t][r][1]=[],s[t][r][1].push(...n(...s[t][r][0][0])),s[t][r][1].push(...n(...s[t][r][0][1])),s[t][r][2]=[],s[t][r][2].push(...n(...s[t][r][1][0])),s[t][r][2].push(...n(...s[t][r][1][1])),s[t][r][2].push(...n(...s[t][r][1][2])),s[t][r][2].push(...n(...s[t][r][1][3]))}for(let t=0;t&lt;8;++t){r[t]=[];for(let e=0;e&lt;8;++e)r[t][e]=[],r[t][e][0]=s[t][0][2][e],r[t][e][1]=s[t][1][2][e],r[t][e][2]=s[t][2][2][e],r[t][e][3]=s[t][3][2][e]}return r};class x{constructor(t,e){this.x=t||0,this.y=e||0}toString(){return`(x=${this.x}, y=${this.y})`}clone(){return new x(this.x,this.y)}add(t){return new x(this.x+t.x,this.y+t.y)}scale(t){return void 0===t.x?new x(this.x*t,this.y*t):new x(this.x*t.x,this.y*t.y)}distSquared(t){let e=this.x-t.x,s=this.y-t.y;return e*e+s*s}transform(t){let e=this.x*t.a+this.y*t.c+t.e,s=this.x*t.b+this.y*t.d+t.f;return new x(e,s)}}class g{constructor(t,e,s,r,n,o){void 0===t?(this.a=1,this.b=0,this.c=0,this.d=1,this.e=0,this.f=0):(this.a=t,this.b=e,this.c=s,this.d=r,this.e=n,this.f=o)}toString(){return`affine: ${this.a} ${this.c} ${this.e} \n       ${this.b} ${this.d} ${this.f}`}append(t){t instanceof g||console.error(&quot;mesh.js: argument to Affine.append is not affine!&quot;);let e=this.a*t.a+this.c*t.b,s=this.b*t.a+this.d*t.b,r=this.a*t.c+this.c*t.d,n=this.b*t.c+this.d*t.d,o=this.a*t.e+this.c*t.f+this.e,i=this.b*t.e+this.d*t.f+this.f;return new g(e,s,r,n,o,i)}}class w{constructor(t,e){this.nodes=t,this.colors=e}paintCurve(t,e){if(o(this.nodes)&gt;r){const s=n(...this.nodes);let r=[[],[]],o=[[],[]];for(let t=0;t&lt;4;++t)r[0][t]=this.colors[0][t],r[1][t]=(this.colors[0][t]+this.colors[1][t])/2,o[0][t]=r[1][t],o[1][t]=this.colors[1][t];let i=new w(s[0],r),a=new w(s[1],o);i.paintCurve(t,e),a.paintCurve(t,e)}else{let s=Math.round(this.nodes[0].x);if(s&gt;=0&amp;&amp;s&lt;e){let r=4*(~~this.nodes[0].y*e+s);t[r]=Math.round(this.colors[0][0]),t[r+1]=Math.round(this.colors[0][1]),t[r+2]=Math.round(this.colors[0][2]),t[r+3]=Math.round(this.colors[0][3])}}}}class m{constructor(t,e){this.nodes=t,this.colors=e}split(){let t=[[],[],[],[]],e=[[],[],[],[]],s=[[[],[]],[[],[]]],r=[[[],[]],[[],[]]];for(let s=0;s&lt;4;++s){const r=n(this.nodes[0][s],this.nodes[1][s],this.nodes[2][s],this.nodes[3][s]);t[0][s]=r[0][0],t[1][s]=r[0][1],t[2][s]=r[0][2],t[3][s]=r[0][3],e[0][s]=r[1][0],e[1][s]=r[1][1],e[2][s]=r[1][2],e[3][s]=r[1][3]}for(let t=0;t&lt;4;++t)s[0][0][t]=this.colors[0][0][t],s[0][1][t]=this.colors[0][1][t],s[1][0][t]=(this.colors[0][0][t]+this.colors[1][0][t])/2,s[1][1][t]=(this.colors[0][1][t]+this.colors[1][1][t])/2,r[0][0][t]=s[1][0][t],r[0][1][t]=s[1][1][t],r[1][0][t]=this.colors[1][0][t],r[1][1][t]=this.colors[1][1][t];return[new m(t,s),new m(e,r)]}paint(t,e){let s,n=!1;for(let t=0;t&lt;4;++t)if((s=o([this.nodes[0][t],this.nodes[1][t],this.nodes[2][t],this.nodes[3][t]]))&gt;r){n=!0;break}if(n){let s=this.split();s[0].paint(t,e),s[1].paint(t,e)}else{new w([...this.nodes[0]],[...this.colors[0]]).paintCurve(t,e)}}}class b{constructor(t){this.readMesh(t),this.type=t.getAttribute(&quot;type&quot;)||&quot;bilinear&quot;}readMesh(t){let e=[[]],s=[[]],r=Number(t.getAttribute(&quot;x&quot;)),n=Number(t.getAttribute(&quot;y&quot;));e[0][0]=new x(r,n);let o=t.children;for(let t=0,r=o.length;t&lt;r;++t){e[3*t+1]=[],e[3*t+2]=[],e[3*t+3]=[],s[t+1]=[];let r=o[t].children;for(let n=0,o=r.length;n&lt;o;++n){let o=r[n].children;for(let r=0,i=o.length;r&lt;i;++r){let i=r;0!==t&amp;&amp;++i;let h,d=o[r].getAttribute(&quot;path&quot;),c=&quot;l&quot;;null!=d&amp;&amp;(c=(h=d.match(/\s*([lLcC])\s*(.*)/))[1]);let u=l(h[2]);switch(c){case&quot;l&quot;:0===i?(e[3*t][3*n+3]=u[0].add(e[3*t][3*n]),e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0].add(e[3*t+3][3*n+3])),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;L&quot;:0===i?(e[3*t][3*n+3]=u[0],e[3*t][3*n+1]=a(e[3*t][3*n],e[3*t][3*n+3]),e[3*t][3*n+2]=a(e[3*t][3*n+3],e[3*t][3*n])):1===i?(e[3*t+3][3*n+3]=u[0],e[3*t+1][3*n+3]=a(e[3*t][3*n+3],e[3*t+3][3*n+3]),e[3*t+2][3*n+3]=a(e[3*t+3][3*n+3],e[3*t][3*n+3])):2===i?(0===n&amp;&amp;(e[3*t+3][3*n+0]=u[0]),e[3*t+3][3*n+1]=a(e[3*t+3][3*n],e[3*t+3][3*n+3]),e[3*t+3][3*n+2]=a(e[3*t+3][3*n+3],e[3*t+3][3*n])):(e[3*t+1][3*n]=a(e[3*t][3*n],e[3*t+3][3*n]),e[3*t+2][3*n]=a(e[3*t+3][3*n],e[3*t][3*n]));break;case&quot;c&quot;:0===i?(e[3*t][3*n+1]=u[0].add(e[3*t][3*n]),e[3*t][3*n+2]=u[1].add(e[3*t][3*n]),e[3*t][3*n+3]=u[2].add(e[3*t][3*n])):1===i?(e[3*t+1][3*n+3]=u[0].add(e[3*t][3*n+3]),e[3*t+2][3*n+3]=u[1].add(e[3*t][3*n+3]),e[3*t+3][3*n+3]=u[2].add(e[3*t][3*n+3])):2===i?(e[3*t+3][3*n+2]=u[0].add(e[3*t+3][3*n+3]),e[3*t+3][3*n+1]=u[1].add(e[3*t+3][3*n+3]),0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2].add(e[3*t+3][3*n+3]))):(e[3*t+2][3*n]=u[0].add(e[3*t+3][3*n]),e[3*t+1][3*n]=u[1].add(e[3*t+3][3*n]));break;case&quot;C&quot;:0===i?(e[3*t][3*n+1]=u[0],e[3*t][3*n+2]=u[1],e[3*t][3*n+3]=u[2]):1===i?(e[3*t+1][3*n+3]=u[0],e[3*t+2][3*n+3]=u[1],e[3*t+3][3*n+3]=u[2]):2===i?(e[3*t+3][3*n+2]=u[0],e[3*t+3][3*n+1]=u[1],0===n&amp;&amp;(e[3*t+3][3*n+0]=u[2])):(e[3*t+2][3*n]=u[0],e[3*t+1][3*n]=u[1]);break;default:console.error(&quot;mesh.js: &quot;+c+&quot; invalid path type.&quot;)}if(0===t&amp;&amp;0===n||r&gt;0){let e=window.getComputedStyle(o[r]).stopColor.match(/^rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)$/i),a=window.getComputedStyle(o[r]).stopOpacity,h=255;a&amp;&amp;(h=Math.floor(255*a)),e&amp;&amp;(0===i?(s[t][n]=[],s[t][n][0]=Math.floor(e[1]),s[t][n][1]=Math.floor(e[2]),s[t][n][2]=Math.floor(e[3]),s[t][n][3]=h):1===i?(s[t][n+1]=[],s[t][n+1][0]=Math.floor(e[1]),s[t][n+1][1]=Math.floor(e[2]),s[t][n+1][2]=Math.floor(e[3]),s[t][n+1][3]=h):2===i?(s[t+1][n+1]=[],s[t+1][n+1][0]=Math.floor(e[1]),s[t+1][n+1][1]=Math.floor(e[2]),s[t+1][n+1][2]=Math.floor(e[3]),s[t+1][n+1][3]=h):3===i&amp;&amp;(s[t+1][n]=[],s[t+1][n][0]=Math.floor(e[1]),s[t+1][n][1]=Math.floor(e[2]),s[t+1][n][2]=Math.floor(e[3]),s[t+1][n][3]=h))}}e[3*t+1][3*n+1]=new x,e[3*t+1][3*n+2]=new x,e[3*t+2][3*n+1]=new x,e[3*t+2][3*n+2]=new x,e[3*t+1][3*n+1].x=(-4*e[3*t][3*n].x+6*(e[3*t][3*n+1].x+e[3*t+1][3*n].x)+-2*(e[3*t][3*n+3].x+e[3*t+3][3*n].x)+3*(e[3*t+3][3*n+1].x+e[3*t+1][3*n+3].x)+-1*e[3*t+3][3*n+3].x)/9,e[3*t+1][3*n+2].x=(-4*e[3*t][3*n+3].x+6*(e[3*t][3*n+2].x+e[3*t+1][3*n+3].x)+-2*(e[3*t][3*n].x+e[3*t+3][3*n+3].x)+3*(e[3*t+3][3*n+2].x+e[3*t+1][3*n].x)+-1*e[3*t+3][3*n].x)/9,e[3*t+2][3*n+1].x=(-4*e[3*t+3][3*n].x+6*(e[3*t+3][3*n+1].x+e[3*t+2][3*n].x)+-2*(e[3*t+3][3*n+3].x+e[3*t][3*n].x)+3*(e[3*t][3*n+1].x+e[3*t+2][3*n+3].x)+-1*e[3*t][3*n+3].x)/9,e[3*t+2][3*n+2].x=(-4*e[3*t+3][3*n+3].x+6*(e[3*t+3][3*n+2].x+e[3*t+2][3*n+3].x)+-2*(e[3*t+3][3*n].x+e[3*t][3*n+3].x)+3*(e[3*t][3*n+2].x+e[3*t+2][3*n].x)+-1*e[3*t][3*n].x)/9,e[3*t+1][3*n+1].y=(-4*e[3*t][3*n].y+6*(e[3*t][3*n+1].y+e[3*t+1][3*n].y)+-2*(e[3*t][3*n+3].y+e[3*t+3][3*n].y)+3*(e[3*t+3][3*n+1].y+e[3*t+1][3*n+3].y)+-1*e[3*t+3][3*n+3].y)/9,e[3*t+1][3*n+2].y=(-4*e[3*t][3*n+3].y+6*(e[3*t][3*n+2].y+e[3*t+1][3*n+3].y)+-2*(e[3*t][3*n].y+e[3*t+3][3*n+3].y)+3*(e[3*t+3][3*n+2].y+e[3*t+1][3*n].y)+-1*e[3*t+3][3*n].y)/9,e[3*t+2][3*n+1].y=(-4*e[3*t+3][3*n].y+6*(e[3*t+3][3*n+1].y+e[3*t+2][3*n].y)+-2*(e[3*t+3][3*n+3].y+e[3*t][3*n].y)+3*(e[3*t][3*n+1].y+e[3*t+2][3*n+3].y)+-1*e[3*t][3*n+3].y)/9,e[3*t+2][3*n+2].y=(-4*e[3*t+3][3*n+3].y+6*(e[3*t+3][3*n+2].y+e[3*t+2][3*n+3].y)+-2*(e[3*t+3][3*n].y+e[3*t][3*n+3].y)+3*(e[3*t][3*n+2].y+e[3*t+2][3*n].y)+-1*e[3*t][3*n].y)/9}}this.nodes=e,this.colors=s}paintMesh(t,e){let s=(this.nodes.length-1)/3,r=(this.nodes[0].length-1)/3;if(&quot;bilinear&quot;===this.type||s&lt;2||r&lt;2){let n;for(let o=0;o&lt;s;++o)for(let s=0;s&lt;r;++s){let r=[];for(let t=3*o,e=3*o+4;t&lt;e;++t)r.push(this.nodes[t].slice(3*s,3*s+4));let i=[];i.push(this.colors[o].slice(s,s+2)),i.push(this.colors[o+1].slice(s,s+2)),(n=new m(r,i)).paint(t,e)}}else{let n,o,a,h,l,d,u;const x=s,g=r;s++,r++;let w=new Array(s);for(let t=0;t&lt;s;++t){w[t]=new Array(r);for(let e=0;e&lt;r;++e)w[t][e]=[],w[t][e][0]=this.nodes[3*t][3*e],w[t][e][1]=this.colors[t][e]}for(let t=0;t&lt;s;++t)for(let e=0;e&lt;r;++e)0!==t&amp;&amp;t!==x&amp;&amp;(n=i(w[t-1][e][0],w[t][e][0]),o=i(w[t+1][e][0],w[t][e][0]),w[t][e][2]=c(w[t-1][e][1],w[t][e][1],w[t+1][e][1],n,o)),0!==e&amp;&amp;e!==g&amp;&amp;(n=i(w[t][e-1][0],w[t][e][0]),o=i(w[t][e+1][0],w[t][e][0]),w[t][e][3]=c(w[t][e-1][1],w[t][e][1],w[t][e+1][1],n,o));for(let t=0;t&lt;r;++t){w[0][t][2]=[],w[x][t][2]=[];for(let e=0;e&lt;4;++e)n=i(w[1][t][0],w[0][t][0]),o=i(w[x][t][0],w[x-1][t][0]),w[0][t][2][e]=n&gt;0?2*(w[1][t][1][e]-w[0][t][1][e])/n-w[1][t][2][e]:0,w[x][t][2][e]=o&gt;0?2*(w[x][t][1][e]-w[x-1][t][1][e])/o-w[x-1][t][2][e]:0}for(let t=0;t&lt;s;++t){w[t][0][3]=[],w[t][g][3]=[];for(let e=0;e&lt;4;++e)n=i(w[t][1][0],w[t][0][0]),o=i(w[t][g][0],w[t][g-1][0]),w[t][0][3][e]=n&gt;0?2*(w[t][1][1][e]-w[t][0][1][e])/n-w[t][1][3][e]:0,w[t][g][3][e]=o&gt;0?2*(w[t][g][1][e]-w[t][g-1][1][e])/o-w[t][g-1][3][e]:0}for(let s=0;s&lt;x;++s)for(let r=0;r&lt;g;++r){let n=i(w[s][r][0],w[s+1][r][0]),o=i(w[s][r+1][0],w[s+1][r+1][0]),c=i(w[s][r][0],w[s][r+1][0]),x=i(w[s+1][r][0],w[s+1][r+1][0]),g=[[],[],[],[]];for(let t=0;t&lt;4;++t){(d=[])[0]=w[s][r][1][t],d[1]=w[s+1][r][1][t],d[2]=w[s][r+1][1][t],d[3]=w[s+1][r+1][1][t],d[4]=w[s][r][2][t]*n,d[5]=w[s+1][r][2][t]*n,d[6]=w[s][r+1][2][t]*o,d[7]=w[s+1][r+1][2][t]*o,d[8]=w[s][r][3][t]*c,d[9]=w[s+1][r][3][t]*x,d[10]=w[s][r+1][3][t]*c,d[11]=w[s+1][r+1][3][t]*x,d[12]=0,d[13]=0,d[14]=0,d[15]=0,u=f(d);for(let e=0;e&lt;9;++e){g[t][e]=[];for(let s=0;s&lt;9;++s)g[t][e][s]=p(u,e/8,s/8),g[t][e][s]&gt;255?g[t][e][s]=255:g[t][e][s]&lt;0&amp;&amp;(g[t][e][s]=0)}}h=[];for(let t=3*s,e=3*s+4;t&lt;e;++t)h.push(this.nodes[t].slice(3*r,3*r+4));l=y(h);for(let s=0;s&lt;8;++s)for(let r=0;r&lt;8;++r)(a=new m(l[s][r],[[[g[0][s][r],g[1][s][r],g[2][s][r],g[3][s][r]],[g[0][s][r+1],g[1][s][r+1],g[2][s][r+1],g[3][s][r+1]]],[[g[0][s+1][r],g[1][s+1][r],g[2][s+1][r],g[3][s+1][r]],[g[0][s+1][r+1],g[1][s+1][r+1],g[2][s+1][r+1],g[3][s+1][r+1]]]])).paint(t,e)}}}transform(t){if(t instanceof x)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].add(t);else if(t instanceof g)for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].transform(t)}scale(t){for(let e=0,s=this.nodes.length;e&lt;s;++e)for(let s=0,r=this.nodes[0].length;s&lt;r;++s)this.nodes[e][s]=this.nodes[e][s].scale(t)}}document.querySelectorAll(&quot;rect,circle,ellipse,path,text&quot;).forEach((r,n)=&gt;{let o=r.getAttribute(&quot;id&quot;);o||(o=&quot;patchjs_shape&quot;+n,r.setAttribute(&quot;id&quot;,o));const i=r.style.fill.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/),a=r.style.stroke.match(/^url\(\s*&quot;?\s*#([^\s&quot;]+)&quot;?\s*\)/);if(i&amp;&amp;i[1]){const a=document.getElementById(i[1]);if(a&amp;&amp;&quot;meshgradient&quot;===a.nodeName){const i=r.getBBox();let l=document.createElementNS(s,&quot;canvas&quot;);d(l,{width:i.width,height:i.height});const c=l.getContext(&quot;2d&quot;);let u=c.createImageData(i.width,i.height);const f=new b(a);&quot;objectBoundingBox&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.scale(new x(i.width,i.height));const p=a.getAttribute(&quot;gradientTransform&quot;);null!=p&amp;&amp;f.transform(h(p)),&quot;userSpaceOnUse&quot;===a.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;f.transform(new x(-i.x,-i.y)),f.paintMesh(u.data,l.width),c.putImageData(u,0,0);const y=document.createElementNS(t,&quot;image&quot;);d(y,{width:i.width,height:i.height,x:i.x,y:i.y});let g=l.toDataURL();y.setAttributeNS(e,&quot;xlink:href&quot;,g),r.parentNode.insertBefore(y,r),r.style.fill=&quot;none&quot;;const w=document.createElementNS(t,&quot;use&quot;);w.setAttributeNS(e,&quot;xlink:href&quot;,&quot;#&quot;+o);const m=&quot;patchjs_clip&quot;+n,M=document.createElementNS(t,&quot;clipPath&quot;);M.setAttribute(&quot;id&quot;,m),M.appendChild(w),r.parentElement.insertBefore(M,r),y.setAttribute(&quot;clip-path&quot;,&quot;url(#&quot;+m+&quot;)&quot;),u=null,l=null,g=null}}if(a&amp;&amp;a[1]){const o=document.getElementById(a[1]);if(o&amp;&amp;&quot;meshgradient&quot;===o.nodeName){const i=parseFloat(r.style.strokeWidth.slice(0,-2))*(parseFloat(r.style.strokeMiterlimit)||parseFloat(r.getAttribute(&quot;stroke-miterlimit&quot;))||1),a=r.getBBox(),l=Math.trunc(a.width+i),c=Math.trunc(a.height+i),u=Math.trunc(a.x-i/2),f=Math.trunc(a.y-i/2);let p=document.createElementNS(s,&quot;canvas&quot;);d(p,{width:l,height:c});const y=p.getContext(&quot;2d&quot;);let g=y.createImageData(l,c);const w=new b(o);&quot;objectBoundingBox&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.scale(new x(l,c));const m=o.getAttribute(&quot;gradientTransform&quot;);null!=m&amp;&amp;w.transform(h(m)),&quot;userSpaceOnUse&quot;===o.getAttribute(&quot;gradientUnits&quot;)&amp;&amp;w.transform(new x(-u,-f)),w.paintMesh(g.data,p.width),y.putImageData(g,0,0);const M=document.createElementNS(t,&quot;image&quot;);d(M,{width:l,height:c,x:0,y:0});let S=p.toDataURL();M.setAttributeNS(e,&quot;xlink:href&quot;,S);const k=&quot;pattern_clip&quot;+n,A=document.createElementNS(t,&quot;pattern&quot;);d(A,{id:k,patternUnits:&quot;userSpaceOnUse&quot;,width:l,height:c,x:u,y:f}),A.appendChild(M),o.parentNode.appendChild(A),r.style.stroke=&quot;url(#&quot;+k+&quot;)&quot;,g=null,p=null,S=null}}})}();
@@ -2604,15 +2608,25 @@
 		<path d="m 49.74,123.34 0.6372,0.6912" style="fill:none;stroke:#000000;stroke-width:0.0477px" id="path1733" />
 		<path d="m 36.78,120.28 c -0.3654,0.3312 -0.522,0.711 -0.522,1.0926 0,0.2556 0.03816,0.5544 0.297,0.8244 0.4914,0.5778 1.4886,0.5616 1.962,0.0412 0.378,-0.4104 0.5112,-0.9072 0.2466,-1.5048 -0.08136,-0.1836 -0.3888,-0.4536 -0.3888,-0.4536" style="fill:none;stroke:#717171;stroke-width:0.234" id="path1736" />
 		<path d="m 37.5,120.1 0.02664,1.0908" style="fill:#717171;stroke:#717171;stroke-width:0.234" id="path1738" />
-		<g transform="matrix(0.639,0,0,0.4464,-33.6,-58.46)" id="g1790">
+		<g transform="matrix(0.639,0,0,0.4464,-33.599999,-58.46)" id="g1790">
 			<path d="m 182,312 -1.82,5.67 -6.58,61.4 1.79,6.71 53.1,-0.22 1.83,-6.49 0.702,-8.72 -6.06,-58.5 z" style="fill:#666666" id="path1780" />
 			<path d="m 180,318 h 44 l 6.19,61.4 h -56.7 z" style="mix-blend-mode:darken;fill:url(#linearGradient6145)" id="path1782" />
 			<path d="m 174,379 1.79,6.71 53.1,-0.22 1.83,-6.49 z" style="fill:url(#linearGradient6147)" id="path1784" />
 			<path d="m 225,312 -0.834,5.89 6.19,61.4 0.702,-8.72 z" style="fill:url(#linearGradient6149)" id="path1786" />
 			<path d="m 182,312 -1.82,5.67 h 44 l 0.834,-5.89 z" style="fill:url(#linearGradient6151)" id="path1788" />
 		</g>
+		<text xml:space="preserve" transform="matrix(0.3258839,0,0,0.45107106,-18.162544,-60.041369)" id="text3" style="font-size:8px;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
+			<tspan x="310.52734" y="327.88067" id="tspan1288">
+				DIGITAL AMMETER
+			</tspan>
+		</text>
+		<text xml:space="preserve" transform="matrix(0.51623793,0,0,0.49881893,-81.957485,-92.050402)" id="text17" style="font-size:8px;white-space:pre;shape-inside:url(#rect25);fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
+			<tspan x="338.75586" y="397.4881" id="tspan1289">
+				µA
+			</tspan>
+		</text>
 		<rect x="87.720001" y="91.695999" width="16.884001" height="8.0279999" style="fill:#81ad58;stroke-width:0.18" id="rect1792" />
-		<text id="volt" x="84.448334" y="102.34953" font-size="7.6512px" fill="#313336" font-family="customFont" style="stroke-width:0.19128" transform="matrix(1.0240595,-0.01633888,0.01752532,0.97622614,0,0)">
+		<text id="volt" x="84" y="102" font-size="6.5px" fill="#313336" font-family="customFont" style="stroke-width:0.19128" transform="matrix(1.0240595,-0.01633888,0.01752532,0.97622614,0,0)">
 			00.00
 		</text>
 		<path d="m 86.1,89.734 -0.918,12.114 2.592,-2.286 v -7.848 z m 20.34,-1.1e-5 c 0.3258,0 0.6498,0.09504 0.9234,0.27 0.2736,0.17496 0.4968,0.4302 0.6318,0.7254 0.13608,0.2952 0.1854,0.63 0.14076,0.9522 -0.0448,0.3222 -0.1836,0.63 -0.396,0.8784 -0.2106,0.2466 -0.495,0.432 -0.8064,0.5256 -0.3114,0.09414 -0.6498,0.09702 -0.963,0.0084 -0.3132,-0.08874 -0.5994,-0.2682 -0.8154,-0.513 -0.216,-0.243 -0.36,-0.549 -0.4104,-0.8712 h -16.902 l -1.6668,-1.98 20.34,-1.8e-5 z" style="fill:#333333;stroke-width:0.18" id="path1795" />
@@ -2648,8 +2662,12 @@
 		<path d="m 102.3,80.878 c 0.954,0.45 1.944,0.5382 2.646,-0.1944" style="fill:#000000;stroke:#000000;stroke-width:0.4914;stroke-opacity:1" id="path1861" />
 		<path d="m 87.9,91.732 -1.1034,-0.927 0.004,0.8928 z" style="opacity:0.237;stroke-width:0.18" id="path1865" />
 		<g id="keyBase1" class="terminals" onclick="trial(4)" transform="matrix(1.395167,0,0,1.3616285,5.2239943,-58.360091)">
-			<text id="text1" x="58.724743" y="136.43648" font-size="2.64575px" style="stroke-width:0.264575" transform="scale(0.8833152,1.1320987)">
-				SWITCH
+			<text id="disKey" x="60.421715" y="139.63982" font-size="2.1657px" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.93251px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.130595" transform="scale(0.90247756,1.1080608)">
+				<tspan sodipodi:role="line" id="tspan1" x="60.421715" y="139.63982" style="stroke-width:0.130595">
+					SWITCH
+				</tspan>
+				<tspan sodipodi:role="line" id="tspan2" x="60.421715" y="143.30545" style="stroke-width:0.130595">
+				</tspan>
 			</text>
 			<path style="fill:#502d16;stroke:none;stroke-width:0.368622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.49932,151.42442 21.906596,-0.14576 -1.242925,-4.81034 -19.576107,0.14576 z" id="path1856-5-8" />
 			<path style="fill:#502d16;stroke:none;stroke-width:0.368622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.49932,149.99619 21.906596,-0.14576 -1.242925,-4.81034 -19.576107,0.14576 z" id="path1856-9-2-1" />
@@ -2795,7 +2813,11 @@
 				<path transform="translate(1081,453)" d="m 0,0 3,1 4,5 7,2 V 9 H 7 L 2,5 Z" fill="#7e2f2c" id="path109-6" />
 				<path transform="translate(384,1050)" d="M 0,0 1,2 4,1 1,7 -1,6 -5,8 -3,4 Z" fill="#b2bfc6" id="path110-3" />
 			</g>
+			<rect style="fill:#81ad58;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel" id="rect6" width="3.4787645" height="8.3899612" x="159.92085" y="81.341698" transform="matrix(1.1090887,0,0,1.1401942,-13.052454,-12.69603)" />
 			<ellipse cx="168.49063" cy="148.44402" rx="3.1860001" ry="2.3940001" style="opacity:0.547;fill:#666666;stroke-width:0.18" id="burner-btn" inkscape:label="burner-btn" transform="matrix(1.1090887,0,0,1.1401942,-13.279411,-12.69603)" />
+			<text xml:space="preserve" transform="matrix(-0.00428125,-0.27677458,0.29341516,-0.00403844,74.122208,251.70347)" id="text12" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.5586px;font-family:Arial, Helvetica, sans-serif;-inkscape-font-specification:'Arial, Helvetica, sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect26);fill:#313336;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
+				<tspan x="581" y="327" id="tempcopy">27.00</tspan>
+			</text>
 		</g>
 		<circle onclick="trial(5)" transform="scale(1,-1)" class="pulse six" cx="148" cy="133" id="circle346" r="1" />
 		<path style="fill:none;stroke:#000000;stroke-width:0.828;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 104.88813,80.438136 c 3.24875,2.628796 -6.486659,-0.661935 17.65494,4.832836 2.75906,0.627979 3.60677,12.286937 7.88494,14.463006 4.6877,2.738312 -1.51038,0.425602 6.54607,3.740242 5.28906,2.17606 0.71205,22.48098 4.24784,29.46711" id="wire2" sodipodi:nodetypes="cscsc" />
@@ -2803,14 +2825,4 @@
 		<path style="fill:none;stroke:#a5171d;stroke-width:0.865;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 81.795957,141.48691 c -1.172189,-0.28652 0.497723,5.70684 -9.53613,4.61018 -5.568922,-0.60866 3.50088,0.32576 -14.520629,-1.34389 -2.604821,-0.24133 -7.794329,-2.90284 -6.229448,-4.08774 3.339076,-2.52828 5.490463,-4.59076 3.179405,-6.77831 -1.448695,-1.37127 -1.190551,-0.77572 -1.488295,-1.19037" id="wire4" sodipodi:nodetypes="cssssc" />
 		<path style="fill:none;stroke:#000000;stroke-width:0.828537;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="m 37.502593,132.79509 c 3.214559,6.16241 -1.202676,6.02639 4.364057,11.98983 1.671147,1.79024 5.251817,3.00294 9.688071,4.05827 6.945353,1.65222 16.341308,2.20863 23.696886,3.7748 3.763238,0.80128 8.591477,2.24489 29.052823,-0.11161 5.87217,-0.67629 68.25219,4.75148 72.34667,0.21885 5.82886,-6.4526 10.61375,-3.78977 7.45707,-10.08012 -9.40053,-18.7325 -19.06096,-75.214005 -29.7175,-9.76387" id="wire1" sodipodi:nodetypes="cssssssc" />
 	</g>
-	<text xml:space="preserve" transform="matrix(0.3258839,0,0,0.45107107,-18.367177,-60.041369)" id="text3" style="font-size:8px;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-		<tspan x="310.52734" y="327.88067" id="tspan1289">
-			DIGITAL AMMETER
-		</tspan>
-	</text>
-	<text xml:space="preserve" transform="matrix(0.51623794,0,0,0.49881892,-82.162119,-92.050401)" id="text17" style="font-size:8px;white-space:pre;shape-inside:url(#rect25);fill:#f9f9f9;stroke:#ffffff;stroke-width:0;stroke-linejoin:bevel">
-		<tspan x="338.75586" y="397.4881" id="tspan1290">
-			µA
-		</tspan>
-	</text>
 </svg>

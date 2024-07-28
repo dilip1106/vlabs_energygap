@@ -110,6 +110,7 @@ function checkbtnPressed(btnNum) {
     document.getElementById("power-btn").style.strokeWidth = "0%";
   } else if (btnNum == 1) {
     document.getElementById("temp").textContent = "27.00";
+    document.getElementById("tempcopy").textContent = "27.00";
     document.getElementById("burner-btn").style.strokeWidth = "0%";
   }
 
@@ -140,12 +141,14 @@ let flag = 1;
 
 function startWorking() {
   let temptext = document.getElementById("temp");
+  let temptextcopy = document.getElementById("tempcopy");
   let curtext = document.getElementById("volt");
   let i=0;
   var srno=0;
   let intervalId = setInterval(() => {
     temprature++;
     temptext.textContent = temprature.toFixed(2);
+    temptextcopy.textContent = temprature.toFixed(2);
     if (flag == 0) {
       curno = curarr[i++] + getRndInteger(0.5, 1.5);
       flag = 1;

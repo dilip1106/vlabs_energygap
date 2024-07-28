@@ -138,6 +138,9 @@ let curarr = [
   36.5, 40.8, 44.3, 48.1, 52.2, 56.1, 60.9, 64.2, 68.13, 72.4, 77.9, 85.3, 91.4, 
   99.5,102.4,109.5,116.7,123.5,126.6,138.7,145.4,153.6,158.7,165.4,171.3,175.8,175.8];
 
+let curarrger = [
+  0.00,1.2
+];
 // let curarr = [];
 
 let curno = 6.83;
@@ -221,5 +224,36 @@ function filldata(srno,temprature,curno){
 }
 
 function startWorkingGer(){
-  alert("bhai mai germanium hu");
+  // let temptext = document.getElementById("temp");
+  // let temptextcopy = document.getElementById("tempcopy");
+  // let curtext = document.getElementById("volt");
+  // let i=0;
+  // var srno=0;
+  // let intervalId = setInterval(() => {
+  //   temprature++;
+  //   temptext.textContent = temprature.toFixed(2);
+  //   temptextcopy.textContent = temprature.toFixed(2);
+  //   if (flag == 0) {
+  //     curno = currarrger[i++] + getRndInteger(0.5, 1.5);
+  //     flag = 1;
+  //   } else {
+  //     curno = currarrger[i++] - getRndInteger(0.5, 1.5);
+  //     flag = 0;
+  //   }
+  //   if(temprature%5===0.00){
+  //     filldata(srno,temprature,curno)
+  //     srno++
+  //     console.log("fill data callede");
+  //     console.log(currarrger)
+  //   }
+  //   curtext.textContent = curno.toFixed(2);
+  //   // Stop the interval after reaching a certain temprature
+  //   if (temprature >= 68.0) {
+  //     clearInterval(intervalId);
+  //     document.getElementById("hotburner").style.display = "none";
+  //     hi();
+  //     // startdroping();
+  //   }
+  // }, 1000);
+  alert("Germanium readings")
 }

@@ -8,7 +8,7 @@
 		@import url(../stylePhy4.css);
 	</style>
 	<script xlink:href="../indexPhy4.js" id="script1560" />
-	<script xlink:href="../index2.js" id="script1560" />
+	<!-- <script xlink:href="../index2.js" id="script1560" /> -->
 	<defs id="defs1584">
 		<rect x="581.41612" y="315.36072" width="63.806891" height="18.562005" id="rect26" />
 		<rect x="603.84521" y="307.23985" width="14.69492" height="32.0968" id="rect12" />
@@ -2668,6 +2668,7 @@
 					SWITCH
 				</tspan>
 				<tspan sodipodi:role="line" id="tspan2" x="60.421715" y="143.30545" style="stroke-width:0.130595">
+					Ge
 				</tspan>
 			</text>
 			<path style="fill:#502d16;stroke:none;stroke-width:0.368622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.49932,151.42442 21.906596,-0.14576 -1.242925,-4.81034 -19.576107,0.14576 z" id="path1856-5-8" />

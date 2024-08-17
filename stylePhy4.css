@@ -89,7 +89,7 @@ form{
 
 .table{
     display: flex;
-    height: 70%;
+    /* height: 70%; */
     justify-content: center;
     margin-bottom: 0px !important;
     /* vertical-align: middle; */
@@ -344,6 +344,57 @@ tr{
       
   }
 
+  
+  @media (min-width: 991px) and (max-width: 1500px){
+    .tablehead{
+        background-color: #212529;
+    }
+    }
+
+    @media (min-width: 990px) and (max-width: 1400px) {
+        .container {
+            max-width: 100% !important;
+            margin-top: 1%;
+        }
+    
+        .table {
+            /* overflow-x: auto;  */
+            width: 80%;
+            /* Allows horizontal scrolling if needed */
+            display: block; /* Ensures that the table is a block-level element */
+        }
+    
+        table {
+            width: 100%; /* Ensure the table width adapts to container */
+            table-layout: auto; /* Allows the table to resize columns automatically */
+        }
+    
+        th, td {
+            padding: 0.5rem; /* Add some padding for better readability */
+        }
+    
+        .tablehead, .obs {
+            font-size: 1rem; /* Adjust font size for readability */
+        }
+    
+        .tablehead h4, .tablehead h5 {
+            font-size: 1.2rem; /* Adjust heading size if needed */
+        }
+    }
+    
+
+/* 
+.diodeselect{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+} */
+.diodeselect{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 
 @media only screen and (max-width:767px) {
     .row {
         display: flex;
@@ -368,7 +419,7 @@ tr{
     }
 
     .bt{
-        /* margin-bottom: 10px; */
+        margin-bottom: 10px;
         margin-top: 8px;
     }
 
@@ -383,9 +434,9 @@ tr{
         margin-left: 35%;
         
     }
-}
+} */
 
-
+/* 
 @media only screen and (min-width : 1200px) and (max-width: 1999px){
     .formula h5{
         font-size: 1.5rem;
@@ -413,4 +464,5 @@ tr{
     .btn{
         width: 15%;
     }
-}
+} */
+

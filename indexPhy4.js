@@ -1,4 +1,5 @@
-let type="silicon";
+// let type="silicon";
+let type;
 
 wireTerminalCheck = [{ two: false, six: false },{ six: false, four: false },
                   { five: false, three: false },{ one: false, five: false },];
@@ -21,6 +22,18 @@ setTimeout(() => {
 }, 2000);
 
 function enablingSequence(sequenceNum) {
+
+  diodeCheckInterval= setInterval(() => {
+    if(localStorage.getItem("diodetype") == "true"){
+      type="silicon"
+      document.getElementById("tspanSe").textContent="Silicon"
+    }
+    else{
+      type="germanium"
+      document.getElementById("tspanSe").textContent="Germanium"
+    }
+  },500)
+  
   if (sequenceNum <= wireTerminalCheck.length) {
     for (var key in wireTerminalCheck[sequenceNum]) {
       elem = document.getElementsByClassName(key)[0];
@@ -177,7 +190,6 @@ function startWorking() {
     if (temprature >= 68.0) {
       clearInterval(intervalId);
       document.getElementById("hotburner").style.display = "none";
-      hi();
       // startdroping();
     }
   }, 1000); // Increase temprature every 100 milliseconds

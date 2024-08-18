@@ -22,9 +22,9 @@
               <div class="tablehead obs spc diodeselect" id="tablehead">
                 <h4>Select The Diode</h4>
                 <select class="form-select" id="inlineFormSelectPref">
-                  <!-- <option >Choose...</option> -->
-                  <option selected value="./assets/bandgap3.svg">Silicon</option>
-                  <option value="./assets/bandgap2.svg">Germanium</option>
+                  <!-- <option selected>Choose...</option> -->
+                  <option value="./assets/bandgapSilicon.svg">Silicon</option>
+                  <option value="./assets/bandgapGermanium.svg">Germanium</option>
                 </select>
               </div>
 
@@ -191,7 +191,7 @@
                   type="image/svg+xml"
                   class="ml-4"
                   id="main-svg"
-                  data="./assets/bandgap3.svg"
+                  data="./assets/bandgapSilicon.svg"
                 ></object>
                 <div id="snackbar" class="instruct1"></div>
                 <input
@@ -254,14 +254,16 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary" id="download">
-              Download
+            <button type="button" class="btn btn-primary" id="downloadgraph">
+              Download Graph
             </button>
           </div>
         </div>
       </div>
     </div>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 

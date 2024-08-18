@@ -2666,7 +2666,12 @@
 				<tspan sodipodi:role="line" id="tspan1" x="60.421715" y="139.63982" style="stroke-width:0.130595">
 					SWITCH
 				</tspan>
+<<<<<<< HEAD
 				<tspan sodipodi:role="line" id="tspanSe" x="60.421715" y="143.30545" style="stroke-width:0.130595">Se</tspan>
+=======
+				<tspan sodipodi:role="line" id="tspan2" x="60.421715" y="143.30545" style="stroke-width:0.130595">
+				</tspan>
+>>>>>>> parent of 6388108 (germanium changes)
 			</text>
 			<path style="fill:#502d16;stroke:none;stroke-width:0.368622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.49932,151.42442 21.906596,-0.14576 -1.242925,-4.81034 -19.576107,0.14576 z" id="path1856-5-8" />
 			<path style="fill:#502d16;stroke:none;stroke-width:0.368622px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.49932,149.99619 21.906596,-0.14576 -1.242925,-4.81034 -19.576107,0.14576 z" id="path1856-9-2-1" />

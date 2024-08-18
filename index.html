@@ -18,23 +18,23 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-lg-5">
-            <div class="mt-3">
-              <div class="tablehead obs spc diodeselect " id="tablehead">
+            <div class="mt-2">
+              <div class="tablehead obs spc diodeselect" id="tablehead">
                 <h4>Select The Diode</h4>
                 <select class="form-select" id="inlineFormSelectPref">
-                  <option selected disabled>Choose...</option>
-                  <option value="true">Silicon</option>
-                  <option value="false">Germanium</option>
+                  <!-- <option >Choose...</option> -->
+                  <option selected value="./assets/bandgapSilicon.svg">Silicon</option>
+                  <option value="./assets/bandgapGermanium.svg">Germanium</option>
                 </select>
               </div>
 
               
             </div>
-            <div class="tablehead obs spc mt-3" id="tablehead">
+            <div class="tablehead obs spc mt-2" id="tablehead">
               <h4>OBSERVATION TABLE</h4>
             </div>
 
-            <div class="table mt-3">
+            <div class="table mt-2">
               <table id="table1">
                 <tr>
                   <th>Sr no.</th>
@@ -146,14 +146,19 @@
 
               <div class="ebg py-4">
                 <h5>Energy band gap:</h5>
-                <h5>
-                  2.303 x 8.62 x 10<sup>-5</sup> x
-                  <input
-                    class="slopeinp"
-                    type="text"
-                    placeholder="Enter slope"
-                  />
-                </h5>
+                <div class="d-flex">
+                  <h6>
+                    2.303 x 8.62 x 10<sup>-5</sup> x
+                    <input
+                      class="slopeinp"
+                      type="text"
+                      placeholder="Enter slope"
+                    />
+                  </h6>
+                  <div class="ebgres">
+                      <h6>&nbsp;&nbsp;&nbsp;E<sub>g </sub>: <span class="ebgvalue"></span> eV</h6>
+                    </div>
+              </div>
 
                 <div class="py-3 calcbtn">
                   <button
@@ -167,9 +172,9 @@
                   <button class="btn btn-outline-primary ebgbtn">
                     Calculate
                   </button>
-                  <!-- <button type="button" class="btn btn-outline-primary ml-3" id="download">
+                  <button type="button" class="btn btn-outline-primary ml-3" id="download">
                     Download
-                  </button> -->
+                  </button>
                 </div>
 
                 <div class="ebgres">
@@ -186,7 +191,7 @@
                   type="image/svg+xml"
                   class="ml-4"
                   id="main-svg"
-                  data="./assets/bandgap3 - Copy.svg"
+                  data="./assets/bandgapSilicon.svg"
                 ></object>
                 <div id="snackbar" class="instruct1"></div>
                 <input
@@ -229,6 +234,9 @@
               </div>
               <canvas id="myChart"></canvas>
             </div>
+            
+          </div>
+          <div class="modal-footer">
             <div class="slope-div">
               <div class="slope">
                 <button type="button" class="btn btn-primary calcslope">
@@ -239,8 +247,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="modal-footer">
             <button
               type="button"
               class="btn btn-secondary"

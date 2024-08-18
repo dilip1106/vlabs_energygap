@@ -23,16 +23,12 @@ setTimeout(() => {
 
 function enablingSequence(sequenceNum) {
 
-  diodeCheckInterval= setInterval(() => {
-    if(localStorage.getItem("diodetype") == "true"){
-      type="silicon"
-      document.getElementById("tspanSe").textContent="Silicon"
-    }
-    else{
-      type="germanium"
-      document.getElementById("tspanSe").textContent="Germanium"
-    }
-  },500)
+  if(document.getElementById('tspanSe')){
+    type="silicon"
+  }
+  else{
+    type="germanium"
+  }
   
   if (sequenceNum <= wireTerminalCheck.length) {
     for (var key in wireTerminalCheck[sequenceNum]) {

@@ -82,7 +82,7 @@ function fillTable() {
           );
         }
         document.querySelector(".slope-div").style.display = "block";
-        document.querySelector("#download").style.display = "block";
+        // document.querySelector("#download").style.display = "block";
       }
     }
     if (rowData.sno == 8) {
@@ -339,22 +339,22 @@ document.getElementById("download").addEventListener("click", downloadGraphAndOb
 
 document.getElementById('inlineFormSelectPref').addEventListener('change', function() {
   var contentUrl = this.value;
-  // document.getElementById('main-svg').data = contentUrl;
-  localStorage.setItem("diodetype", contentUrl);
+  document.getElementById('main-svg').data = contentUrl;
+  // localStorage.setItem("diodetype", contentUrl);
 });
 
 
-// document.getElementById('inlineFormSelectPref').addEventListener('change', function() {
-//   const selectElement = document.getElementById('inlineFormSelectPref');
-//   const selectedOption = selectElement.options[selectElement.selectedIndex];
-//   const contentUrl = this.value;
+document.getElementById('inlineFormSelectPref').addEventListener('change', function() {
+  const selectElement = document.getElementById('inlineFormSelectPref');
+  const selectedOption = selectElement.options[selectElement.selectedIndex];
+  const contentUrl = this.value;
   
-//   // Disable the selected option
-//   selectedOption.disabled = true;
+  // Disable the selected option
+  selectedOption.disabled = true;
   
-//   // Store the selected value in localStorage
-//   localStorage.setItem("diodetype", contentUrl);
-//   // selectElement.disabled = true;
-//   // Optional: Log the stored value for verification
-//   console.log("Selected and stored value:", contentUrl);
-// });
+  // Store the selected value in localStorage
+  localStorage.setItem("diodetype", contentUrl);
+  selectElement.disabled = true;
+  // Optional: Log the stored value for verification
+  console.log("Selected and stored value:", contentUrl);
+});
